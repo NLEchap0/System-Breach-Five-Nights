@@ -1,10 +1,18 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Menu","order":4,"path":"folders/Menu.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"Boom","order":2,"path":"objects/Boom/Boom.yy",},
-    {"name":"Jumpscare","order":4,"path":"objects/Jumpscare/Jumpscare.yy",},
+    {"name":"Jumpscare","order":3,"path":"objects/Jumpscare/Jumpscare.yy",},
+    {"name":"manual_controller","order":6,"path":"objects/manual_controller/manual_controller.yy",},
+    {"name":"impostazioni","order":1,"path":"rooms/impostazioni/impostazioni.yy",},
+    {"name":"manuale","order":2,"path":"rooms/manuale/manuale.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"holographic_manual","order":7,"path":"sprites/holographic_manual/holographic_manual.yy",},
     {"name":"Sprite1","order":3,"path":"sprites/Sprite1/Sprite1.yy",},
-    {"name":"Sprite2","order":5,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Sprite2","order":6,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Sprite3","order":4,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Sprite4","order":5,"path":"sprites/Sprite4/Sprite4.yy",},
   ],
 }

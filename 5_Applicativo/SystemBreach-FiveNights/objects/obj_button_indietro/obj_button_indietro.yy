@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_manuale",
+  "%Name":"obj_button_indietro",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_manuale",
+  "name":"obj_button_indietro",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu",

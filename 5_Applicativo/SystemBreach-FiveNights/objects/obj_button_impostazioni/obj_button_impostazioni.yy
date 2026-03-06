@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_manuale",
+  "%Name":"obj_button_impostazioni",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_manuale",
+  "name":"obj_button_impostazioni",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_button_invisibile",
-    "path":"sprites/spr_button_invisibile/spr_button_invisibile.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":{
     "name":"spr_button_invisibile",
     "path":"sprites/spr_button_invisibile/spr_button_invisibile.yy",

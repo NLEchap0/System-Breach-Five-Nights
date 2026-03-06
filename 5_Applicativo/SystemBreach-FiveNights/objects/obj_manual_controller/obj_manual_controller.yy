@@ -10,8 +10,8 @@
   "name":"obj_manual_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"manuale",
-    "path":"folders/Menu/manuale.yy",
+    "name":"Manuale",
+    "path":"folders/Menu/Manuale.yy",
   },
   "parentObjectId":null,
   "persistent":false,

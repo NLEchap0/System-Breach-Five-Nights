@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_button_invisibile",
+    "path":"sprites/spr_button_invisibile/spr_button_invisibile.yy",
+  },
   "spriteMaskId":{
     "name":"spr_button_invisibile",
     "path":"sprites/spr_button_invisibile/spr_button_invisibile.yy",

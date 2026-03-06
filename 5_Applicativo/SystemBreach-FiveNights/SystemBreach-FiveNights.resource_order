@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
+    {"name":"Bozza_scrolling","order":6,"path":"folders/Bozza_scrolling.yy",},
     {"name":"Game","order":5,"path":"folders/Game.yy",},
     {"name":"Ufficio","order":1,"path":"folders/Game/Ufficio.yy",},
-    {"name":"Bozza_scrolling","order":6,"path":"folders/Bozza_scrolling.yy",},
     {"name":"Menu","order":4,"path":"folders/Menu.yy",},
     {"name":"Impostazioni","order":10,"path":"folders/Menu/Impostazioni.yy",},
     {"name":"Manuale","order":8,"path":"folders/Menu/Manuale.yy",},

@@ -1,13 +1,16 @@
 {
   "FolderOrderSettings":[
     {"name":"Menu","order":4,"path":"folders/Menu.yy",},
+    {"name":"Impostazioni","order":10,"path":"folders/Menu/Impostazioni.yy",},
     {"name":"manuale","order":8,"path":"folders/Menu/manuale.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"JumpscareVAL_Z","order":3,"path":"objects/JumpscareVAL_Z/JumpscareVAL_Z.yy",},
-    {"name":"obj_manual_controller","order":6,"path":"objects/obj_manual_controller/obj_manual_controller.yy",},
-    {"name":"obj_menu","order":9,"path":"objects/obj_menu/obj_menu.yy",},
+    {"name":"obj_button_manuale","order":12,"path":"objects/obj_button_manuale/obj_button_manuale.yy",},
+    {"name":"obj_manual_controller","order":2,"path":"objects/obj_manual_controller/obj_manual_controller.yy",},
+    {"name":"obj_video_controller","order":9,"path":"objects/obj_video_controller/obj_video_controller.yy",},
     {"name":"rm_impostazioni","order":1,"path":"rooms/rm_impostazioni/rm_impostazioni.yy",},
+    {"name":"spr_button_manual","order":13,"path":"sprites/spr_button_manual/spr_button_manual.yy",},
     {"name":"sprite_holographic_manual","order":1,"path":"sprites/sprite_holographic_manual/sprite_holographic_manual.yy",},
     {"name":"Sprite1","order":3,"path":"sprites/Sprite1/Sprite1.yy",},
     {"name":"Sprite3","order":4,"path":"sprites/Sprite3/Sprite3.yy",},

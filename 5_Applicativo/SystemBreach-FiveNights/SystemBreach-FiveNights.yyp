@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Impostazioni","folderPath":"folders/Menu/Impostazioni.yy","name":"Impostazioni","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"manuale","folderPath":"folders/Menu/manuale.yy","name":"manuale","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
@@ -26,11 +27,14 @@
   "name":"SystemBreach-FiveNights",
   "resources":[
     {"id":{"name":"JumpscareVAL_Z","path":"objects/JumpscareVAL_Z/JumpscareVAL_Z.yy",},},
+    {"id":{"name":"obj_button_manuale","path":"objects/obj_button_manuale/obj_button_manuale.yy",},},
+    {"id":{"name":"obj_impostazioni_controller","path":"objects/obj_impostazioni_controller/obj_impostazioni_controller.yy",},},
     {"id":{"name":"obj_manual_controller","path":"objects/obj_manual_controller/obj_manual_controller.yy",},},
-    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
+    {"id":{"name":"obj_video_controller","path":"objects/obj_video_controller/obj_video_controller.yy",},},
     {"id":{"name":"rm_impostazioni","path":"rooms/rm_impostazioni/rm_impostazioni.yy",},},
     {"id":{"name":"rm_manuale","path":"rooms/rm_manuale/rm_manuale.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"id":{"name":"spr_button_manual","path":"sprites/spr_button_manual/spr_button_manual.yy",},},
     {"id":{"name":"sprite_holographic_manual","path":"sprites/sprite_holographic_manual/sprite_holographic_manual.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
@@ -39,8 +43,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_manuale","path":"rooms/rm_manuale/rm_manuale.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_manuale","path":"rooms/rm_manuale/rm_manuale.yy",},},
     {"roomId":{"name":"rm_impostazioni","path":"rooms/rm_impostazioni/rm_impostazioni.yy",},},
   ],
   "templateType":"game",

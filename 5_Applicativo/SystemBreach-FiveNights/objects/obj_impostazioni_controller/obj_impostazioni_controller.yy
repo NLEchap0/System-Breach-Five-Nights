@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_manual_controller",
+  "%Name":"obj_impostazioni_controller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_manual_controller",
+  "name":"obj_impostazioni_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"manuale",
-    "path":"folders/Menu/manuale.yy",
+    "name":"Impostazioni",
+    "path":"folders/Menu/Impostazioni.yy",
   },
   "parentObjectId":null,
   "persistent":false,

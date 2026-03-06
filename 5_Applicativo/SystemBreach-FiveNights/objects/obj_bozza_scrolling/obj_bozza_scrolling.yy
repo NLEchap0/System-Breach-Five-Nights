@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_manual_controller",
+  "%Name":"obj_bozza_scrolling",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_manual_controller",
+  "name":"obj_bozza_scrolling",
   "overriddenProperties":[],
   "parent":{
-    "name":"Manuale",
-    "path":"folders/Menu/Manuale.yy",
+    "name":"Bozza_scrolling",
+    "path":"folders/Bozza_scrolling.yy",
   },
   "parentObjectId":null,
   "persistent":false,

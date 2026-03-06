@@ -1,2 +1,2 @@
 volume = 1;
-bar_width = 390;
+bar_width = 386;

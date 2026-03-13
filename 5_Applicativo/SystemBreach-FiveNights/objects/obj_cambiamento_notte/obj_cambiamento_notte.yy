@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_impostazioni_controller",
+  "%Name":"obj_cambiamento_notte",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_impostazioni_controller",
+  "name":"obj_cambiamento_notte",
   "overriddenProperties":[],
   "parent":{
-    "name":"Impostazioni",
-    "path":"folders/Menu/Impostazioni.yy",
+    "name":"Start",
+    "path":"folders/Game/Start.yy",
   },
   "parentObjectId":null,
   "persistent":false,

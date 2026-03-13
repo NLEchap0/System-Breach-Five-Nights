@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_impostazioni_controller",
+  "%Name":"obj_variabili_gioco",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_impostazioni_controller",
+  "name":"obj_variabili_gioco",
   "overriddenProperties":[],
   "parent":{
-    "name":"Impostazioni",
-    "path":"folders/Menu/Impostazioni.yy",
+    "name":"Game",
+    "path":"folders/Game.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

@@ -1,11 +1,10 @@
 gui_w = display_get_gui_width();
 gui_h = display_get_gui_height();
 
-page = 0;
+page = 1;
 max_pages = 3;
 
-// prendo gli elementi grafici dal layer
-//bgs = layer_get_all()
+bgs = layer_get_all()
 
 box_x = gui_w * 0.08;
 box_y = gui_h * 0.25;

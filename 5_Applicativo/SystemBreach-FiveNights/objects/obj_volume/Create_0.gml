@@ -1,2 +1,2 @@
-volume = 1;
+volume = global.volume;
 bar_width = 386;

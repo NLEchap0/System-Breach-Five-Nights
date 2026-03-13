@@ -1,0 +1,1 @@
+global.night = 1;

@@ -10,3 +10,4 @@ box_x = gui_w * 0.08;
 box_y = gui_h * 0.25;
 box_w = gui_w * 1.21;
 box_h = gui_h * 1.07;
+

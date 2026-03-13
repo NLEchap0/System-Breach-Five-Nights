@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_manual_controller",
+  "%Name":"obj_menu_controller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_manual_controller",
+  "name":"obj_menu_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Manuale",
-    "path":"folders/Menu/Manuale.yy",
+    "name":"Menu",
+    "path":"folders/Menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,6 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":null,
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_button_invisibile",
+    "path":"sprites/spr_button_invisibile/spr_button_invisibile.yy",
+  },
   "visible":true,
 }

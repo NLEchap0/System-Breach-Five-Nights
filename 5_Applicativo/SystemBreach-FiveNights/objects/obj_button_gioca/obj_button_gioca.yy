@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_menu",
-  "eventList":[],
+  "%Name":"obj_button_gioca",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_menu",
+  "name":"obj_button_gioca",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu",
@@ -27,7 +29,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"spr_button_invisibile",
+    "path":"sprites/spr_button_invisibile/spr_button_invisibile.yy",
+  },
+  "spriteMaskId":{
+    "name":"spr_button_invisibile",
+    "path":"sprites/spr_button_invisibile/spr_button_invisibile.yy",
+  },
   "visible":true,
 }

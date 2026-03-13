@@ -1,3 +1,7 @@
+/*layer_set_visible(bgs[0], page == 0);
+layer_set_visible(bgs[1], page == 1);
+layer_set_visible(bgs[2], page == 2);*/
+
 scroll_y += mouse_wheel_down() * scroll_speed;
 scroll_y -= mouse_wheel_up() * scroll_speed;
 

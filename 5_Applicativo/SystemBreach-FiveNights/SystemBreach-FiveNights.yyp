@@ -44,7 +44,6 @@
     {"id":{"name":"obj_luminosita","path":"objects/obj_luminosita/obj_luminosita.yy",},},
     {"id":{"name":"obj_manual_controller","path":"objects/obj_manual_controller/obj_manual_controller.yy",},},
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},},
-    {"id":{"name":"obj_video","path":"objects/obj_video/obj_video.yy",},},
     {"id":{"name":"obj_volume","path":"objects/obj_volume/obj_volume.yy",},},
     {"id":{"name":"rm_bozza_scrolling","path":"rooms/rm_bozza_scrolling/rm_bozza_scrolling.yy",},},
     {"id":{"name":"rm_impostazioni","path":"rooms/rm_impostazioni/rm_impostazioni.yy",},},

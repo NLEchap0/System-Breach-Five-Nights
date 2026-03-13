@@ -21,7 +21,6 @@
     {"name":"obj_luminosita","order":6,"path":"objects/obj_luminosita/obj_luminosita.yy",},
     {"name":"obj_manual_controller","order":2,"path":"objects/obj_manual_controller/obj_manual_controller.yy",},
     {"name":"obj_menu_controller","order":9,"path":"objects/obj_menu_controller/obj_menu_controller.yy",},
-    {"name":"obj_video","order":2,"path":"objects/obj_video/obj_video.yy",},
     {"name":"obj_volume","order":1,"path":"objects/obj_volume/obj_volume.yy",},
     {"name":"rm_bozza_scrolling","order":1,"path":"rooms/rm_bozza_scrolling/rm_bozza_scrolling.yy",},
     {"name":"rm_impostazioni","order":3,"path":"rooms/rm_impostazioni/rm_impostazioni.yy",},

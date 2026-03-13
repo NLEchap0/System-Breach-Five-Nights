@@ -1,3 +1,4 @@
+
 var result = video_draw()
 var status = result[0] // stato del video 
 

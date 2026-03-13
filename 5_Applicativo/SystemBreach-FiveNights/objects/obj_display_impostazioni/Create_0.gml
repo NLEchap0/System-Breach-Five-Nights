@@ -1,2 +1,6 @@
-global.brightness = 0;   // -1 a 1
-global.contrast = 1;     // 0 a 2
+application_surface_draw_enable(false);
+global.brightness = 0;
+global.contrast = 1;
+global.volume =1;
+shader_disabled = false;
+

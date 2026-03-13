@@ -48,6 +48,8 @@
     {"id":{"name":"rm_manuale","path":"rooms/rm_manuale/rm_manuale.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_ufficio","path":"rooms/rm_ufficio/rm_ufficio.yy",},},
+    {"id":{"name":"shdr_fragment","path":"shaders/shdr_fragment/shdr_fragment.yy",},},
+    {"id":{"name":"shdr_vertex","path":"shaders/shdr_vertex/shdr_vertex.yy",},},
     {"id":{"name":"backgroundAudio","path":"sounds/backgroundAudio/backgroundAudio.yy",},},
     {"id":{"name":"backgroundMenuImpostazioniOff","path":"sprites/backgroundMenuImpostazioniOff/backgroundMenuImpostazioniOff.yy",},},
     {"id":{"name":"backgroundMenuImpostazioniOn","path":"sprites/backgroundMenuImpostazioniOn/backgroundMenuImpostazioniOn.yy",},},

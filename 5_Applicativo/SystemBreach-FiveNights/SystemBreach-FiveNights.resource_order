@@ -22,6 +22,8 @@
     {"name":"obj_volume","order":1,"path":"objects/obj_volume/obj_volume.yy",},
     {"name":"rm_bozza_scrolling","order":1,"path":"rooms/rm_bozza_scrolling/rm_bozza_scrolling.yy",},
     {"name":"rm_impostazioni","order":3,"path":"rooms/rm_impostazioni/rm_impostazioni.yy",},
+    {"name":"shdr_fragment","order":10,"path":"shaders/shdr_fragment/shdr_fragment.yy",},
+    {"name":"shdr_vertex","order":9,"path":"shaders/shdr_vertex/shdr_vertex.yy",},
     {"name":"backgroundAudio","order":19,"path":"sounds/backgroundAudio/backgroundAudio.yy",},
     {"name":"backgroundMenuImpostazioniOff","order":5,"path":"sprites/backgroundMenuImpostazioniOff/backgroundMenuImpostazioniOff.yy",},
     {"name":"backgroundMenuImpostazioniOn","order":4,"path":"sprites/backgroundMenuImpostazioniOn/backgroundMenuImpostazioniOn.yy",},

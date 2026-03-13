@@ -15,6 +15,7 @@
     {"name":"obj_button_impostazioni","order":15,"path":"objects/obj_button_impostazioni/obj_button_impostazioni.yy",},
     {"name":"obj_button_indietro","order":18,"path":"objects/obj_button_indietro/obj_button_indietro.yy",},
     {"name":"obj_button_manuale","order":12,"path":"objects/obj_button_manuale/obj_button_manuale.yy",},
+    {"name":"obj_checkbox","order":10,"path":"objects/obj_checkbox/obj_checkbox.yy",},
     {"name":"obj_contrasto","order":7,"path":"objects/obj_contrasto/obj_contrasto.yy",},
     {"name":"obj_display_impostazioni","order":8,"path":"objects/obj_display_impostazioni/obj_display_impostazioni.yy",},
     {"name":"obj_luminosita","order":6,"path":"objects/obj_luminosita/obj_luminosita.yy",},

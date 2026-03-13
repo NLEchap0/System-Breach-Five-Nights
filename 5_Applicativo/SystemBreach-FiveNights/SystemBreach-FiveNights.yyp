@@ -37,6 +37,7 @@
     {"id":{"name":"obj_button_impostazioni","path":"objects/obj_button_impostazioni/obj_button_impostazioni.yy",},},
     {"id":{"name":"obj_button_indietro","path":"objects/obj_button_indietro/obj_button_indietro.yy",},},
     {"id":{"name":"obj_button_manuale","path":"objects/obj_button_manuale/obj_button_manuale.yy",},},
+    {"id":{"name":"obj_checkbox","path":"objects/obj_checkbox/obj_checkbox.yy",},},
     {"id":{"name":"obj_contrasto","path":"objects/obj_contrasto/obj_contrasto.yy",},},
     {"id":{"name":"obj_display_impostazioni","path":"objects/obj_display_impostazioni/obj_display_impostazioni.yy",},},
     {"id":{"name":"obj_impostazioni_controller","path":"objects/obj_impostazioni_controller/obj_impostazioni_controller.yy",},},

@@ -3,7 +3,7 @@ gui_h = display_get_gui_height();
 
 layer_id = layer_get_id("Assets_1");
 
-bg_inizio = layer_get_element_at_depth(layer_id, 0);
+/*bg_inizio = layer_get_element_at_depth(layer_id, 0);
 bg_mezzo  = layer_get_element_at_depth(layer_id, 1);
 bg_fine   = layer_get_element_at_depth(layer_id, 2);
 
@@ -16,7 +16,7 @@ function aggiorna_pagina()
     layer_sprite_set_visible(bg_fine,   page == 2);
 }
 
-aggiorna_pagina();
+aggiorna_pagina();*/
 
 box_x = gui_w * 0.08;
 box_y = gui_h * 0.25;

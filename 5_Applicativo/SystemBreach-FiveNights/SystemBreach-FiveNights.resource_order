@@ -9,6 +9,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"JumpscareVAL_Z","order":3,"path":"objects/JumpscareVAL_Z/JumpscareVAL_Z.yy",},
+    {"name":"obj_button_freccia_destra","order":7,"path":"objects/obj_button_freccia_destra/obj_button_freccia_destra.yy",},
+    {"name":"obj_button_freccia_sinistra","order":8,"path":"objects/obj_button_freccia_sinistra/obj_button_freccia_sinistra.yy",},
     {"name":"obj_button_gioca","order":17,"path":"objects/obj_button_gioca/obj_button_gioca.yy",},
     {"name":"obj_button_impostazioni","order":15,"path":"objects/obj_button_impostazioni/obj_button_impostazioni.yy",},
     {"name":"obj_button_indietro","order":18,"path":"objects/obj_button_indietro/obj_button_indietro.yy",},

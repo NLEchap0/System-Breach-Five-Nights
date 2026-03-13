@@ -31,6 +31,8 @@
   "resources":[
     {"id":{"name":"JumpscareVAL_Z","path":"objects/JumpscareVAL_Z/JumpscareVAL_Z.yy",},},
     {"id":{"name":"obj_bozza_scrolling","path":"objects/obj_bozza_scrolling/obj_bozza_scrolling.yy",},},
+    {"id":{"name":"obj_button_freccia_destra","path":"objects/obj_button_freccia_destra/obj_button_freccia_destra.yy",},},
+    {"id":{"name":"obj_button_freccia_sinistra","path":"objects/obj_button_freccia_sinistra/obj_button_freccia_sinistra.yy",},},
     {"id":{"name":"obj_button_gioca","path":"objects/obj_button_gioca/obj_button_gioca.yy",},},
     {"id":{"name":"obj_button_impostazioni","path":"objects/obj_button_impostazioni/obj_button_impostazioni.yy",},},
     {"id":{"name":"obj_button_indietro","path":"objects/obj_button_indietro/obj_button_indietro.yy",},},

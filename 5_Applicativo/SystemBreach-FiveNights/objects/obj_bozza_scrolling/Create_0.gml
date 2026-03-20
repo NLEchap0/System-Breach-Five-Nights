@@ -21,9 +21,9 @@ anim_desc = [
 ];
 
 anim_sprite = [
-	Sprite1,
-	Sprite3,
-	Sprite4
+	ValZ_manuale,
+	TheSingularity_manuale,
+	TheUnknown_manuale
 ];
 
 block_height = 500;

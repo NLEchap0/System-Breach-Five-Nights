@@ -1,17 +1,18 @@
-valZ = 10; // valore da 1 a 50 che definisce la aggressività dell'animatronico
-global.posizione = 6;
+valZ = 50; // valore da 1 a 50 che definisce la aggressività dell'animatronico
 possibilita1 = 0;
 possibilita2 = 0;
+fiftyfiftyDone = false;
 
 movimento = function(){ 
-      if(global.posizione != 12 && global.posizione != 22){
+      if(global.posizioneValz != 12 && global.posizioneValz != 22){
             ranInt = irandom_range(1, 50);
             if (ranInt <= valZ) {
-                  show_debug_message("movimento VAL-Z: " + ranInt);
-                  switch(page){
+                  show_debug_message("movimento VAL-Z");
+                  switch(global.posizioneValz){
                         case 6:
                               possibilita1 = 51;
                               possibilita2 = 0;
+							  fiftyfiftyDone = false;
                               break;
                         case 51:
                               possibilita1 = 52;
@@ -31,35 +32,40 @@ movimento = function(){ 
                               break;
                   }
                   if(possibilita2 == 0){
-                        global.posizione = possibilita1;
+                        global.posizioneValz = possibilita1;
                   }else{
-                        fiftyfifty = irandom_range(1, 2);
-                        if(fiftyfifty == 1){
-                              global.posizione = possibilita1;
-                        }else{
-                              global.posizione = possibilita2;
-                        }
+						if(!fiftyfiftyDone){
+		                    fiftyfifty = irandom_range(1, 2);
+		                    if(fiftyfifty == 1){
+		                            global.posizioneValz = possibilita1;
+		                    }else{
+		                            global.posizioneValz = possibilita2;
+		                    }
+							fiftyfiftyDone = true
+						}
                   }
-                  checkAttacco();
+				  if(global.posizioneValz == 12 || global.posizioneValz == 22){
+                  		checkAttacco();
+				  }
           }else{
-                  show_debug_message("no movimento VAL-Z: " + ranInt);
+                  show_debug_message("no movimento VAL-Z");
             }
       }
 }
 
 checkAttacco = function(){
-      controllo_posizione = time_source_create(time_source_game, 7.5, time_source_units_seconds, attacco, [], -1); // -1 significa che si ripete all'infinito
-      
-      attacco = function(){
-            if(global.firewall1 == false && global.posizione == 12){
-                  show_debug_message("Jumpscare");
-            }
-            if(global.firewall2 == false && global.posizione == 22){
-                  show_debug_message("Jumpscare");
-            }
-      }
+    attacco_timer = time_source_create(time_source_game, 7.5, time_source_units_seconds, attacco, [], 1); // -1 significa che si ripete all'infinito
+	time_source_start(attacco_timer);
 }
 
+attacco = function(){
+	if(global.firewall1 == false && global.posizioneValz == 12){
+	    show_debug_message("Jumpscare");
+	}
+	if(global.firewall2 == false && global.posizioneValz == 22){
+	    show_debug_message("Jumpscare");
+	}
+}
 
 controllo_posizione = time_source_create(time_source_game, 5, time_source_units_seconds, movimento, [], -1); // -1 significa che si ripete all'infinito
 

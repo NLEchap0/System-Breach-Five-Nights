@@ -7,7 +7,7 @@ if (status == 0)
     draw_surface_stretched(surf, 0, 0, room_width, room_height);
 }
 
-else if (status == 1){
+if (video_get_status() == video_status_closed){
 	video_close();
 	room_goto(rm_ufficio);
 }

@@ -1,13 +1,12 @@
-mascheraActive = false;
 fw1Active = false;
 fw2Active = false;
 
 //cambio degli assets attivi in base allo stato della maschera
 function layer_maschera_active()
 {
-    layer_set_visible("Assets_camOff", mascheraActive == false);
-	layer_set_visible("Assets_maschera", mascheraActive == false)
-	layer_set_visible("Assets_mascheraOn", mascheraActive == true);
+    layer_set_visible("Assets_camOff", global.mascheraActive == false);
+	layer_set_visible("Assets_maschera", global.mascheraActive == false)
+	layer_set_visible("Assets_mascheraOn", global.mascheraActive == true);
 }
 
 //cambio dello stato dei firewall

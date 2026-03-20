@@ -7,11 +7,17 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_5343BA06","path":"rooms/rm_ufficio/rm_ufficio.yy",},
+    {"name":"inst_423089D8","path":"rooms/rm_ufficio/rm_ufficio.yy",},
+    {"name":"inst_1A149C78","path":"rooms/rm_ufficio/rm_ufficio.yy",},
+    {"name":"inst_2C10B84D","path":"rooms/rm_ufficio/rm_ufficio.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_5343BA06","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5343BA06","objectId":{"name":"obj_uffico_controller","path":"objects/obj_uffico_controller/obj_uffico_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_423089D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_423089D8","objectId":{"name":"obj_button_fw1","path":"objects/obj_button_fw1/obj_button_fw1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.578125,"scaleY":1.828125,"x":44.0,"y":326.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1A149C78","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A149C78","objectId":{"name":"obj_button_fw2","path":"objects/obj_button_fw2/obj_button_fw2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.578125,"scaleY":1.828125,"x":1157.0,"y":326.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2C10B84D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C10B84D","objectId":{"name":"obj_cam_maschera","path":"objects/obj_cam_maschera/obj_cam_maschera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":18.921875,"scaleY":1.453125,"x":84.0,"y":675.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_maschera","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_4BC7DB43","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4BC7DB43","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.24349882,"scaleY":0.2195122,"spriteId":{"name":"mascheraOff","path":"sprites/mascheraOff/mascheraOff.yy",},"x":634.0,"y":17.0,},

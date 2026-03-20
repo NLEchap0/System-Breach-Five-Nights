@@ -11,8 +11,8 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Game","folderPath":"folders/Game.yy","name":"Game","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Telecamere","folderPath":"folders/Game/Telecamere.yy","name":"Telecamere","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Start","folderPath":"folders/Game/Start.yy","name":"Start","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Telecamere","folderPath":"folders/Game/Telecamere.yy","name":"Telecamere","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ufficio","folderPath":"folders/Game/Ufficio.yy","name":"Ufficio","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Impostazioni","folderPath":"folders/Menu/Impostazioni.yy","name":"Impostazioni","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -61,6 +61,7 @@
     {"id":{"name":"rm_manuale","path":"rooms/rm_manuale/rm_manuale.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"id":{"name":"rm_ufficio_ceo","path":"rooms/rm_ufficio_ceo/rm_ufficio_ceo.yy",},},
     {"id":{"name":"rm_ufficio","path":"rooms/rm_ufficio/rm_ufficio.yy",},},
     {"id":{"name":"shdr_brightness_contrast","path":"shaders/shdr_brightness_contrast/shdr_brightness_contrast.yy",},},
     {"id":{"name":"backgroundAudio","path":"sounds/backgroundAudio/backgroundAudio.yy",},},
@@ -91,6 +92,7 @@
     {"roomId":{"name":"rm_impostazioni","path":"rooms/rm_impostazioni/rm_impostazioni.yy",},},
     {"roomId":{"name":"rm_ufficio","path":"rooms/rm_ufficio/rm_ufficio.yy",},},
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
+    {"roomId":{"name":"rm_ufficio_ceo","path":"rooms/rm_ufficio_ceo/rm_ufficio_ceo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

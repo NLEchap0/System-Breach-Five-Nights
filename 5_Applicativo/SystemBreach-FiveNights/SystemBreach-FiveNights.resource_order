@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Game","order":9,"path":"folders/Game.yy",},
-    {"name":"Telecamere","order":3,"path":"folders/Game/Telecamere.yy",},
     {"name":"Start","order":2,"path":"folders/Game/Start.yy",},
+    {"name":"Telecamere","order":3,"path":"folders/Game/Telecamere.yy",},
     {"name":"Menu","order":8,"path":"folders/Menu.yy",},
     {"name":"Impostazioni","order":10,"path":"folders/Menu/Impostazioni.yy",},
     {"name":"Manuale","order":8,"path":"folders/Menu/Manuale.yy",},

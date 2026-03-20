@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Game","order":9,"path":"folders/Game.yy",},
+    {"name":"Telecamere","order":3,"path":"folders/Game/Telecamere.yy",},
     {"name":"Start","order":2,"path":"folders/Game/Start.yy",},
     {"name":"Menu","order":8,"path":"folders/Menu.yy",},
     {"name":"Impostazioni","order":10,"path":"folders/Menu/Impostazioni.yy",},
@@ -25,6 +26,7 @@
     {"name":"obj_manual_controller","order":2,"path":"objects/obj_manual_controller/obj_manual_controller.yy",},
     {"name":"obj_menu_controller","order":9,"path":"objects/obj_menu_controller/obj_menu_controller.yy",},
     {"name":"obj_uffico_controller","order":9,"path":"objects/obj_uffico_controller/obj_uffico_controller.yy",},
+    {"name":"obj_Valz_controller","order":13,"path":"objects/obj_Valz_controller/obj_Valz_controller.yy",},
     {"name":"obj_variabili_gioco","order":1,"path":"objects/obj_variabili_gioco/obj_variabili_gioco.yy",},
     {"name":"obj_volume","order":1,"path":"objects/obj_volume/obj_volume.yy",},
     {"name":"rm_impostazioni","order":3,"path":"rooms/rm_impostazioni/rm_impostazioni.yy",},

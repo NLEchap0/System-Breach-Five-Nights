@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Game","folderPath":"folders/Game.yy","name":"Game","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Telecamere","folderPath":"folders/Game/Telecamere.yy","name":"Telecamere","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Start","folderPath":"folders/Game/Start.yy","name":"Start","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ufficio","folderPath":"folders/Game/Ufficio.yy","name":"Ufficio","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -53,6 +54,7 @@
     {"id":{"name":"obj_manual_controller","path":"objects/obj_manual_controller/obj_manual_controller.yy",},},
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},},
     {"id":{"name":"obj_uffico_controller","path":"objects/obj_uffico_controller/obj_uffico_controller.yy",},},
+    {"id":{"name":"obj_Valz_controller","path":"objects/obj_Valz_controller/obj_Valz_controller.yy",},},
     {"id":{"name":"obj_variabili_gioco","path":"objects/obj_variabili_gioco/obj_variabili_gioco.yy",},},
     {"id":{"name":"obj_volume","path":"objects/obj_volume/obj_volume.yy",},},
     {"id":{"name":"rm_impostazioni","path":"rooms/rm_impostazioni/rm_impostazioni.yy",},},

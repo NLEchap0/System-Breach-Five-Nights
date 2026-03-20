@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Valz_controller",
+  "%Name":"obj_uffici_controller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Valz_controller",
+  "name":"obj_uffici_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ufficio",
-    "path":"folders/Game/Ufficio.yy",
+    "name":"Uffici",
+    "path":"folders/Game/Telecamere/Uffici.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

@@ -1,32 +1,32 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_ufficio_ceo",
+  "%Name":"rm_hacking_destra",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_2EBCE20F","path":"rooms/rm_ufficio_ceo/rm_ufficio_ceo.yy",},
+    {"name":"inst_4F653E14","path":"rooms/rm_hacking_destra/rm_hacking_destra.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_2EBCE20F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2EBCE20F","objectId":{"name":"obj_ufficio_ceo_controller","path":"objects/obj_ufficio_ceo_controller/obj_ufficio_ceo_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4F653E14","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F653E14","objectId":{"name":"obj_hacking_destra_controller","path":"objects/obj_hacking_destra_controller/obj_hacking_destra_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_telecamere","assets":[
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_6607110C","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6607110C","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.47500002,"scaleY":0.38981482,"spriteId":{"name":"telecamere","path":"sprites/telecamere/telecamere.yy",},"x":894.0,"y":347.0,},
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_7B0DC1F2_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_7B0DC1F2_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.475,"scaleY":0.3898148,"spriteId":{"name":"telecamere","path":"sprites/telecamere/telecamere.yy",},"x":894.0,"y":347.0,},
       ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_telecamere","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRAssetLayer":"","%Name":"Assets_valz_pos6","assets":[
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_64593FFD","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_64593FFD","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.34416828,"scaleY":0.34707904,"spriteId":{"name":"standard_pos","path":"sprites/standard_pos/standard_pos.yy",},"x":480.0,"y":224.0,},
-      ],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_valz_pos6","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRAssetLayer":"","%Name":"Assets_ufficio_ceo","assets":[
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_EE0B04","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_EE0B04","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.3359375,"scaleY":0.33564013,"spriteId":{"name":"stanza_valz","path":"sprites/stanza_valz/stanza_valz.yy",},"x":0.0,"y":0.0,},
-      ],"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_ufficio_ceo","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRAssetLayer":"","%Name":"Assets_valz_pos21","assets":[
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_331311FD1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_331311FD1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.32887194,"scaleY":0.33562425,"spriteId":{"name":"standard_pos","path":"sprites/standard_pos/standard_pos.yy",},"x":267.0,"y":29.0,},
+      ],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_valz_pos21","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRAssetLayer":"","%Name":"Assets_hacking_sinistra","assets":[
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_554EA52B","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_554EA52B","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.25294116,"scaleY":0.25,"spriteId":{"name":"stanza_attacco_destra","path":"sprites/stanza_attacco_destra/stanza_attacco_destra.yy",},"x":0.0,"y":0.0,},
+      ],"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_hacking_sinistra","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
-  "name":"rm_ufficio_ceo",
+  "name":"rm_hacking_destra",
   "parent":{
-    "name":"Ufficio_Ceo",
-    "path":"folders/Game/Telecamere/Ufficio_Ceo.yy",
+    "name":"Stanze_Hacking",
+    "path":"folders/Game/Telecamere/Stanze_Hacking.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object25",
+  "%Name":"obj_hacking_sinistra_controller",
   "eventList":[],
   "managed":true,
-  "name":"Object25",
+  "name":"obj_hacking_sinistra_controller",
   "overriddenProperties":[],
   "parent":{
     "name":"Stanze_Hacking",

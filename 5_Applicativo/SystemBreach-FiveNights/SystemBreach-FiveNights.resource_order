@@ -38,9 +38,9 @@
     {"name":"camOff","order":3,"path":"sprites/camOff/camOff.yy",},
     {"name":"mascheraOff","order":2,"path":"sprites/mascheraOff/mascheraOff.yy",},
     {"name":"spr_button_invisibile","order":16,"path":"sprites/spr_button_invisibile/spr_button_invisibile.yy",},
-    {"name":"Sprite1","order":3,"path":"sprites/Sprite1/Sprite1.yy",},
-    {"name":"Sprite3","order":4,"path":"sprites/Sprite3/Sprite3.yy",},
-    {"name":"Sprite4","order":5,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"TheSingularity_manuale","order":4,"path":"sprites/TheSingularity_manuale/TheSingularity_manuale.yy",},
+    {"name":"TheUnknown_manuale","order":5,"path":"sprites/TheUnknown_manuale/TheUnknown_manuale.yy",},
     {"name":"ufficio_portaChiusa","order":1,"path":"sprites/ufficio_portaChiusa/ufficio_portaChiusa.yy",},
+    {"name":"ValZ_manuale","order":3,"path":"sprites/ValZ_manuale/ValZ_manuale.yy",},
   ],
 }

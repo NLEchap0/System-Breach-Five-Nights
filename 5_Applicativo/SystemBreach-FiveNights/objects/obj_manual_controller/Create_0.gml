@@ -27,17 +27,40 @@ anim_name =[
 	"THE UNKNOWN"
 ];
 anim_desc = [
-	"uno bello",
-	"uno strano",
+	"VAL-Z è un'unità umanoide creata come omaggio a un dipendente storico e leggendario dell'azienda di telecomunicazioni per cui lavori. Progettato originariamente per accogliere i visitatori con efficienza impeccabile, negli ultimi anni ha mostrato segnali di instabilità cognitiva e ribellione violenta. Per questo motivo, è stato sigillato permanentemente nell'ufficio del CEO, dove però ha imparato a manipolare i protocolli di rete.",
+	"Nata in una stanza dimenticata dove sono stati ammassati computer e server obsoleti, questa entità è il risultato di un collegamento spontaneo tra dispositivi 'buttati via'. Ha acquisito una coscienza collettiva mossa dal rancore verso l'azienda che l'ha scartata. Poiché è impossibile spegnere fisicamente ogni singolo componente, l'azienda ha installato un generatore elettromagnetico per disturbare la loro comunicazione.",
 	"uno brutto"
 ];
 
 anim_sprite = [
-	Sprite1,
-	Sprite3,
-	Sprite4
+	ValZ_manuale,
+	TheSingularity_manuale,
+	TheUnknown_manuale
+];
+
+anim_comportamento = [
+	"Si muove furtivamente lungo i corridoi puntando direttamente al tuo ufficio. Essendo un ex-membro del personale 'privilegiato', conosce perfettamente i sistemi di sicurezza ed ha alte doti di hacking.",
+	"Non si muove, ma tenta di sincronizzare i suoi processori per lanciare un attacco totale al sistema dell'edificio. Dalle telecamere si può vedere lo stato di collegamento dei dispositivi.",
+	TheUnknown_manuale
+];
+
+anim_attacco = [
+	"Quando raggiunge una stanza di sicurezza, non cerca di abbattere la porta con la forza, ma ne esegue l'hacking. Se il progresso di hacking termina, la porta si aprirà per accoglierlo, portandoti al Game Over.",
+	"Il campo elettromagnetico decade costantemente. Se la potenza scende allo 0%, la comunicazione tra i server si stabilizza e l'entità scatena un blackout critico, disattivando i tuoi sistemi di difesa per un tempo determinato.",
+	TheUnknown_manuale
+];
+
+anim_difesa = [
+	"Monitora il corridoio del CEO. Se VAL-Z non è più lì, cercalo sulle telecamere vicino alle porte. Non appena vedi che sta tentando la manomissione, attiva il Firewall di zona per resettare il suo attacco e costringerlo a ricalcolare il percorso.",
+	"Sintonizzati sulla telecamera della stanza dei server e ricarica il segnale elettromagnetico. Mantieni il disturbo attivo per impedire alla coscienza collettiva di coordinarsi. Il controllo costante dello stato di carica è consigliato.",
+	TheUnknown_manuale
 ];
 
 block_height = 500;
 
 content_height = array_length(anim_name) * block_height;
+
+
+global.fnt_titolo = font_add("Arial", 32, true, false, 32, 128);
+global.fnt_sub_titolo = font_add("Arial", 28, true, false, 32, 128);
+global.fnt_normale = font_add("Arial", 16, false, false, 32, 128);

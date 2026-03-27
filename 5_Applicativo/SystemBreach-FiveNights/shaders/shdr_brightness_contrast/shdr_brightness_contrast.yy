@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdr_brightness_contrast",
+  "name":"shdr_brightness_contrast",
+  "parent":{
+    "name":"Impostazioni",
+    "path":"folders/Menu/Impostazioni.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

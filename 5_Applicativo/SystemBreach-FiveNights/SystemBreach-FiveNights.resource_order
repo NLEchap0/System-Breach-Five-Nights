@@ -11,6 +11,7 @@
     {"name":"Manuale","order":8,"path":"folders/Menu/Manuale.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fnaf_font","order":11,"path":"fonts/fnaf_font/fnaf_font.yy",},
     {"name":"JumpscareVAL_Z","order":7,"path":"objects/JumpscareVAL_Z/JumpscareVAL_Z.yy",},
     {"name":"obj_button_cam1","order":7,"path":"objects/obj_button_cam1/obj_button_cam1.yy",},
     {"name":"obj_button_cam2","order":8,"path":"objects/obj_button_cam2/obj_button_cam2.yy",},

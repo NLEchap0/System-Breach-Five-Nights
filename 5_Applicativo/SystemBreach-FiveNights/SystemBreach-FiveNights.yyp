@@ -24,6 +24,7 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"cambio.mp4","CopyToMask":-1,"filePath":"datafiles","name":"cambio.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"fnaf_font.ttf","CopyToMask":-1,"filePath":"datafiles","name":"fnaf_font.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"jumpscare.mp4","CopyToMask":-1,"filePath":"datafiles","name":"jumpscare.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"menuAnimato.mp4","CopyToMask":-1,"filePath":"datafiles","name":"menuAnimato.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Notte01.mp4","CopyToMask":-1,"filePath":"datafiles","name":"Notte01.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -40,6 +41,7 @@
   },
   "name":"SystemBreach-FiveNights",
   "resources":[
+    {"id":{"name":"fnaf_font","path":"fonts/fnaf_font/fnaf_font.yy",},},
     {"id":{"name":"JumpscareVAL_Z","path":"objects/JumpscareVAL_Z/JumpscareVAL_Z.yy",},},
     {"id":{"name":"obj_button_cam1","path":"objects/obj_button_cam1/obj_button_cam1.yy",},},
     {"id":{"name":"obj_button_cam2","path":"objects/obj_button_cam2/obj_button_cam2.yy",},},
@@ -69,6 +71,7 @@
     {"id":{"name":"obj_luminosita","path":"objects/obj_luminosita/obj_luminosita.yy",},},
     {"id":{"name":"obj_manual_controller","path":"objects/obj_manual_controller/obj_manual_controller.yy",},},
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},},
+    {"id":{"name":"obj_ora","path":"objects/obj_ora/obj_ora.yy",},},
     {"id":{"name":"obj_uffici_controller","path":"objects/obj_uffici_controller/obj_uffici_controller.yy",},},
     {"id":{"name":"obj_ufficio_ceo_controller","path":"objects/obj_ufficio_ceo_controller/obj_ufficio_ceo_controller.yy",},},
     {"id":{"name":"obj_uffico_controller","path":"objects/obj_uffico_controller/obj_uffico_controller.yy",},},

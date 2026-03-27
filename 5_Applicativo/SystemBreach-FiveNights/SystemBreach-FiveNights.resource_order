@@ -11,6 +11,7 @@
     {"name":"Manuale","order":8,"path":"folders/Menu/Manuale.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fnaf_font","order":11,"path":"fonts/fnaf_font/fnaf_font.yy",},
     {"name":"JumpscareVAL_Z","order":7,"path":"objects/JumpscareVAL_Z/JumpscareVAL_Z.yy",},
     {"name":"obj_button_cam1","order":7,"path":"objects/obj_button_cam1/obj_button_cam1.yy",},
     {"name":"obj_button_cam2","order":8,"path":"objects/obj_button_cam2/obj_button_cam2.yy",},
@@ -39,6 +40,7 @@
     {"name":"obj_luminosita","order":6,"path":"objects/obj_luminosita/obj_luminosita.yy",},
     {"name":"obj_manual_controller","order":2,"path":"objects/obj_manual_controller/obj_manual_controller.yy",},
     {"name":"obj_menu_controller","order":9,"path":"objects/obj_menu_controller/obj_menu_controller.yy",},
+    {"name":"obj_ora","order":4,"path":"objects/obj_ora/obj_ora.yy",},
     {"name":"obj_uffici_controller","order":4,"path":"objects/obj_uffici_controller/obj_uffici_controller.yy",},
     {"name":"obj_ufficio_ceo_controller","order":3,"path":"objects/obj_ufficio_ceo_controller/obj_ufficio_ceo_controller.yy",},
     {"name":"obj_uffico_controller","order":9,"path":"objects/obj_uffico_controller/obj_uffico_controller.yy",},

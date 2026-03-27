@@ -1,5 +1,8 @@
-with(obj_uffico_controller){
-	if(!global.mascheraActive){
+
+if (!triggered)
+{
+	if(!global.mascheraActive && !global.camActive){
+		global.camActive = true;
 		switch(global.currCam){
 			case 1:
 				room_goto(rm_hacking_sinistra);
@@ -21,4 +24,11 @@ with(obj_uffico_controller){
 				break;
 		}
 	}
+	
+	else{
+		show_debug_message("ciao");
+		global.camActive = false;
+		room_goto(rm_ufficio);
+	}
 }
+

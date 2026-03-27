@@ -1,4 +1,4 @@
-
+room_goto(rm_ufficio);
 //disabilita il loop attivato per il menu
 video_enable_loop(false);
 //seleziona video in base alla notte corrente

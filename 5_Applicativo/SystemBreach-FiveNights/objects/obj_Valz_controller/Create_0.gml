@@ -1,9 +1,9 @@
 valZ = 50; // valore da 1 a 50 che definisce la aggressività dell'animatronico
 possibilita1 = 0;
 possibilita2 = 0;
+count = 0;
 
 movimento = function(){ 
-	
       if(global.posizioneValz != 12 && global.posizioneValz != 22){
             ranInt = irandom_range(1, 50);
             if (ranInt <= valZ) {
@@ -19,21 +19,26 @@ movimento = function(){ 
                   if(possibilita2 == 0){
                         global.posizioneValz = possibilita1;
                   }else{
-						fiftyFifty = irandom_range(1, 2);
-		                if (fiftyFifty == 1) {
-		                    global.posizioneValz = possibilita1;
-		                } else {
-		                    global.posizioneValz = possibilita2;
-		                }
+						if(count <= 2){
+							fiftyFifty = irandom_range(1, 2);
+			                if (fiftyFifty == 1) {
+			                    global.posizioneValz = possibilita1;
+			                } else {
+			                    global.posizioneValz = possibilita2;
+			                }
+							count++;
+						}
                   }
 				  if(global.posizioneValz == 12 || global.posizioneValz == 22){
                   		checkAttacco();
 				  }
 				  show_debug_message(global.posizioneValz);
-          }else{
+      		}else{
                   show_debug_message("no movimento VAL-Z");
-            }
-      }
+           	}
+      	}else{
+			count = 0;
+		}
 }
 
 checkAttacco = function(){
@@ -45,6 +50,8 @@ attacco = function(){
 	if((global.firewall1 == false && global.posizioneValz == 12)
 	|| (global.firewall2 == false && global.posizioneValz == 22)){
 	    show_debug_message("Jumpscare");
+	}else{
+		global.posizioneValz = 6;
 	}
 }
 

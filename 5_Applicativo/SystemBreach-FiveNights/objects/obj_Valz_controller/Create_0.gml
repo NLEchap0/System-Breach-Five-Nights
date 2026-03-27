@@ -1,9 +1,9 @@
 valZ = 50; // valore da 1 a 50 che definisce la aggressività dell'animatronico
 possibilita1 = 0;
 possibilita2 = 0;
-fiftyfiftyDone = false;
 
 movimento = function(){ 
+	
       if(global.posizioneValz != 12 && global.posizioneValz != 22){
             ranInt = irandom_range(1, 50);
             if (ranInt <= valZ) {
@@ -19,8 +19,8 @@ movimento = function(){ 
                   if(possibilita2 == 0){
                         global.posizioneValz = possibilita1;
                   }else{
-						fiftyfifty = irandom_range(1, 2);
-		                if (fiftyfifty == 1) {
+						fiftyFifty = irandom_range(1, 2);
+		                if (fiftyFifty == 1) {
 		                    global.posizioneValz = possibilita1;
 		                } else {
 		                    global.posizioneValz = possibilita2;
@@ -47,9 +47,8 @@ attacco = function(){
 	    show_debug_message("Jumpscare");
 	}
 }
-with(obj_Gestore_stanze){
-	aggiornamentoPosizione();
-}
+
+
 controllo_posizione = time_source_create(time_source_game, 5, time_source_units_seconds, movimento, [], -1); // -1 significa che si ripete all'infinito
 
 time_source_start(controllo_posizione);

@@ -8,45 +8,28 @@ movimento = function(){ 
             ranInt = irandom_range(1, 50);
             if (ranInt <= valZ) {
                   show_debug_message("movimento VAL-Z");
-                  switch(global.posizioneValz){
-                        case 6:
-                              possibilita1 = 51;
-                              possibilita2 = 0;
-							  fiftyfiftyDone = false;
-                              break;
-                        case 51:
-                              possibilita1 = 52;
-                              possibilita2 = 0;
-                              break;
-                        case 52:
-                              possibilita1 = 11;
-                              possibilita2 = 21;
-                              break;
-                        case 11:
-                              possibilita1 = 12;
-                              possibilita2 = 21;
-                              break;
-                        case 21:
-                              possibilita1 = 22;
-                              possibilita2 = 11;
-                              break;
-                  }
+				  show_debug_message(global.posizioneValz);
+                  switch(global.posizioneValz) {
+			            case 6:  possibilita1 = 51; possibilita2 = 0;  break;
+			            case 51: possibilita1 = 52; possibilita2 = 0;  break;
+			            case 52: possibilita1 = 11; possibilita2 = 21; break;
+			            case 11: possibilita1 = 12; possibilita2 = 21; break;
+			            case 21: possibilita1 = 22; possibilita2 = 11; break;
+				  }
                   if(possibilita2 == 0){
                         global.posizioneValz = possibilita1;
                   }else{
-						if(!fiftyfiftyDone){
-		                    fiftyfifty = irandom_range(1, 2);
-		                    if(fiftyfifty == 1){
-		                            global.posizioneValz = possibilita1;
-		                    }else{
-		                            global.posizioneValz = possibilita2;
-		                    }
-							fiftyfiftyDone = true
-						}
+						fiftyfifty = irandom_range(1, 2);
+		                if (fiftyfifty == 1) {
+		                    global.posizioneValz = possibilita1;
+		                } else {
+		                    global.posizioneValz = possibilita2;
+		                }
                   }
 				  if(global.posizioneValz == 12 || global.posizioneValz == 22){
                   		checkAttacco();
 				  }
+				  show_debug_message(global.posizioneValz);
           }else{
                   show_debug_message("no movimento VAL-Z");
             }

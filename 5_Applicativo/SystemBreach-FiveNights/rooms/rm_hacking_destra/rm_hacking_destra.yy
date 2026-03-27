@@ -13,6 +13,7 @@
     {"name":"inst_1FA815BD","path":"rooms/rm_hacking_destra/rm_hacking_destra.yy",},
     {"name":"inst_7C98CEBD","path":"rooms/rm_hacking_destra/rm_hacking_destra.yy",},
     {"name":"inst_C462911","path":"rooms/rm_hacking_destra/rm_hacking_destra.yy",},
+    {"name":"inst_541ED382","path":"rooms/rm_hacking_destra/rm_hacking_destra.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -24,6 +25,7 @@
         {"$GMRInstance":"v4","%Name":"inst_1FA815BD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1FA815BD","objectId":{"name":"obj_button_cam5","path":"objects/obj_button_cam5/obj_button_cam5.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.109375,"scaleY":0.609375,"x":1115.0,"y":435.0,},
         {"$GMRInstance":"v4","%Name":"inst_7C98CEBD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C98CEBD","objectId":{"name":"obj_button_cam6","path":"objects/obj_button_cam6/obj_button_cam6.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.109375,"scaleY":0.609375,"x":1116.0,"y":395.0,},
         {"$GMRInstance":"v4","%Name":"inst_C462911","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C462911","objectId":{"name":"obj_button_cam1","path":"objects/obj_button_cam1/obj_button_cam1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.109375,"scaleY":0.65625,"x":1015.0,"y":636.0,},
+        {"$GMRInstance":"v4","%Name":"inst_541ED382","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_541ED382","objectId":{"name":"obj_cam_maschera","path":"objects/obj_cam_maschera/obj_cam_maschera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":10.1875,"scaleY":1.140625,"x":360.0,"y":673.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_telecamere","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_7B0DC1F2_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_7B0DC1F2_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.475,"scaleY":0.3898148,"spriteId":{"name":"telecamere","path":"sprites/telecamere/telecamere.yy",},"x":894.0,"y":347.0,},

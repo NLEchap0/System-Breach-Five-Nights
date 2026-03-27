@@ -47,7 +47,9 @@ attacco = function(){
 	    show_debug_message("Jumpscare");
 	}
 }
-
+with(obj_Gestore_stanze){
+	aggiornamentoPosizione();
+}
 controllo_posizione = time_source_create(time_source_game, 5, time_source_units_seconds, movimento, [], -1); // -1 significa che si ripete all'infinito
 
 time_source_start(controllo_posizione);

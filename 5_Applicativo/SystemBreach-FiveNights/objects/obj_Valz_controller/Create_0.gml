@@ -42,10 +42,8 @@ checkAttacco = function(){
 }
 
 attacco = function(){
-	if(global.firewall1 == false && global.posizioneValz == 12){
-	    show_debug_message("Jumpscare");
-	}
-	if(global.firewall2 == false && global.posizioneValz == 22){
+	if((global.firewall1 == false && global.posizioneValz == 12)
+	|| (global.firewall2 == false && global.posizioneValz == 22)){
 	    show_debug_message("Jumpscare");
 	}
 }

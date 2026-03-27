@@ -47,6 +47,7 @@
     {"name":"backgroundMenuManualeInizio","order":4,"path":"sprites/backgroundMenuManualeInizio/backgroundMenuManualeInizio.yy",},
     {"name":"backgroundMenuManualeMezzo","order":6,"path":"sprites/backgroundMenuManualeMezzo/backgroundMenuManualeMezzo.yy",},
     {"name":"camOff","order":3,"path":"sprites/camOff/camOff.yy",},
+    {"name":"camOn","order":5,"path":"sprites/camOn/camOn.yy",},
     {"name":"fw1off","order":4,"path":"sprites/fw1off/fw1off.yy",},
     {"name":"fw1on","order":5,"path":"sprites/fw1on/fw1on.yy",},
     {"name":"fw2off","order":6,"path":"sprites/fw2off/fw2off.yy",},

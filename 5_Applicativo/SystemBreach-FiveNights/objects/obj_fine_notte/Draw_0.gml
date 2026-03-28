@@ -6,6 +6,7 @@ if (status == 0)
 	var surf = result[1]; // frame del video
     draw_surface_stretched(surf, 0, 0, room_width, room_height);
 }
+show_debug_message(video_get_status());
 
 if (video_get_status() == video_status_closed){
 	video_close();

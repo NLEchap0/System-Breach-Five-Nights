@@ -44,7 +44,7 @@
     {"name":"obj_ora","order":4,"path":"objects/obj_ora/obj_ora.yy",},
     {"name":"obj_uffici_controller","order":4,"path":"objects/obj_uffici_controller/obj_uffici_controller.yy",},
     {"name":"obj_ufficio_ceo_controller","order":3,"path":"objects/obj_ufficio_ceo_controller/obj_ufficio_ceo_controller.yy",},
-    {"name":"obj_uffico_controller","order":9,"path":"objects/obj_uffico_controller/obj_uffico_controller.yy",},
+    {"name":"obj_ufficio_controller","order":9,"path":"objects/obj_ufficio_controller/obj_ufficio_controller.yy",},
     {"name":"obj_Valz_controller","order":13,"path":"objects/obj_Valz_controller/obj_Valz_controller.yy",},
     {"name":"obj_variabili_gioco","order":1,"path":"objects/obj_variabili_gioco/obj_variabili_gioco.yy",},
     {"name":"obj_volume","order":1,"path":"objects/obj_volume/obj_volume.yy",},

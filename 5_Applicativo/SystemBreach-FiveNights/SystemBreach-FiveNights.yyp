@@ -78,7 +78,7 @@
     {"id":{"name":"obj_ora","path":"objects/obj_ora/obj_ora.yy",},},
     {"id":{"name":"obj_uffici_controller","path":"objects/obj_uffici_controller/obj_uffici_controller.yy",},},
     {"id":{"name":"obj_ufficio_ceo_controller","path":"objects/obj_ufficio_ceo_controller/obj_ufficio_ceo_controller.yy",},},
-    {"id":{"name":"obj_uffico_controller","path":"objects/obj_uffico_controller/obj_uffico_controller.yy",},},
+    {"id":{"name":"obj_ufficio_controller","path":"objects/obj_ufficio_controller/obj_ufficio_controller.yy",},},
     {"id":{"name":"obj_Valz_controller","path":"objects/obj_Valz_controller/obj_Valz_controller.yy",},},
     {"id":{"name":"obj_variabili_gioco","path":"objects/obj_variabili_gioco/obj_variabili_gioco.yy",},},
     {"id":{"name":"obj_volume","path":"objects/obj_volume/obj_volume.yy",},},

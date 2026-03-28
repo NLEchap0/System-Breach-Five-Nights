@@ -26,5 +26,6 @@ if(global.win){
 	global.night = global.night+1
 	global.win = false
 }else{
+	
 	video_open("lossEnding.mp4");
 }

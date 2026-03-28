@@ -9,3 +9,4 @@ global.night = 1;
 global.trigger= false
 global.win = false;
 global.waiting_for_office = true;
+global.ucciso = 1; //1 valZ 2 e 3 altrri animatronici 

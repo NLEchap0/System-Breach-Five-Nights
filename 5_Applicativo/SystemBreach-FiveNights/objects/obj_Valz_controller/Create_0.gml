@@ -49,7 +49,11 @@ checkAttacco = function(){
 attacco = function(){
 	if((global.firewall1 == false && global.posizioneValz == 12)
 	|| (global.firewall2 == false && global.posizioneValz == 22)){
-	    show_debug_message("Jumpscare");
+		show_debug_message("Jumpscare");
+		video_close()
+		alarm[0]=5;
+		
+	 
 	}else{
 		global.posizioneValz = 6;
 	}

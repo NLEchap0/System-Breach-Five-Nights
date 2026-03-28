@@ -8,3 +8,4 @@ global.firewall2 = false;
 global.night = 1;
 global.trigger= false
 global.win = false;
+global.waiting_for_office = true;

@@ -1,1 +1,1 @@
-triggered = false;
+global.trigger=false

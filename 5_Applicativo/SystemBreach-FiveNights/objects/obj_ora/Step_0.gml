@@ -7,7 +7,8 @@ if (current_time - last_update >= 60000) {
     } else if (current_number < 5) {
         current_number += 1;
     } else {
-        // victory
+        video_close();
+		alarm[0] = 1;
     }
     
 

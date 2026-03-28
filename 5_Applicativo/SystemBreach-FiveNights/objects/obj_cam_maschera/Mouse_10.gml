@@ -1,6 +1,7 @@
 
-if (!triggered)
+if (!global.trigger)
 {
+	global.trigger = true;
 	if(!global.mascheraActive && !global.camActive){
 		global.camActive = true;
 		switch(global.currCam){
@@ -26,7 +27,6 @@ if (!triggered)
 	}
 	
 	else{
-		show_debug_message("ciao");
 		global.camActive = false;
 		room_goto(rm_ufficio);
 	}

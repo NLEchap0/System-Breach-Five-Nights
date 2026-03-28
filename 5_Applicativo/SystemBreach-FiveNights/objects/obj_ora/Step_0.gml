@@ -1,5 +1,5 @@
 
-if (current_time - last_update >= 5000) {
+if (current_time - last_update >= 5000000) {
     
     // Aggiorna il numero
     if (current_number == 12) {

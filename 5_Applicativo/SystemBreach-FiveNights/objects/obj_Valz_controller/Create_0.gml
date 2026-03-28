@@ -13,13 +13,14 @@ movimento = function(){ 
 			            case 6:  possibilita1 = 51; possibilita2 = 0;  break;
 			            case 51: possibilita1 = 52; possibilita2 = 0;  break;
 			            case 52: possibilita1 = 11; possibilita2 = 21; break;
-			            case 11: possibilita1 = 12; possibilita2 = 21; break;
-			            case 21: possibilita1 = 22; possibilita2 = 11; break;
+			            case 11: possibilita1 = 12; possibilita2 = 22; break;
+			            case 21: possibilita1 = 22; possibilita2 = 12; break;
 				  }
                   if(possibilita2 == 0){
                         global.posizioneValz = possibilita1;
                   }else{
 						if(count <= 2){
+							show_debug_message("ciao");
 							fiftyFifty = irandom_range(1, 2);
 			                if (fiftyFifty == 1) {
 			                    global.posizioneValz = possibilita1;
@@ -60,6 +61,6 @@ attacco = function(){
 }
 
 
-controllo_posizione = time_source_create(time_source_game, 5, time_source_units_seconds, movimento, [], -1); // -1 significa che si ripete all'infinito
+controllo_posizione = time_source_create(time_source_game, 0.5, time_source_units_seconds, movimento, [], -1); // -1 significa che si ripete all'infinito
 
 time_source_start(controllo_posizione);

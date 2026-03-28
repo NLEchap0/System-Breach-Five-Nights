@@ -19,6 +19,8 @@ with (obj_Gestore_stanze) {
     instance_destroy();
 }
 
+global.posizioneValz = 6;
+global.currCam = 6;
 
 video_enable_loop(false);
 if(global.win){

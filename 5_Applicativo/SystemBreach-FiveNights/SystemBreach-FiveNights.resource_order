@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Game","order":9,"path":"folders/Game.yy",},
+    {"name":"End","order":5,"path":"folders/Game/End.yy",},
     {"name":"Start","order":2,"path":"folders/Game/Start.yy",},
     {"name":"Telecamere","order":3,"path":"folders/Game/Telecamere.yy",},
     {"name":"Stanze_Hacking","order":3,"path":"folders/Game/Telecamere/Stanze_Hacking.yy",},
@@ -47,6 +48,7 @@
     {"name":"obj_Valz_controller","order":13,"path":"objects/obj_Valz_controller/obj_Valz_controller.yy",},
     {"name":"obj_variabili_gioco","order":1,"path":"objects/obj_variabili_gioco/obj_variabili_gioco.yy",},
     {"name":"obj_volume","order":1,"path":"objects/obj_volume/obj_volume.yy",},
+    {"name":"rm_end","order":1,"path":"rooms/rm_end/rm_end.yy",},
     {"name":"rm_hacking_destra","order":4,"path":"rooms/rm_hacking_destra/rm_hacking_destra.yy",},
     {"name":"rm_impostazioni","order":3,"path":"rooms/rm_impostazioni/rm_impostazioni.yy",},
     {"name":"shdr_brightness_contrast","order":9,"path":"shaders/shdr_brightness_contrast/shdr_brightness_contrast.yy",},

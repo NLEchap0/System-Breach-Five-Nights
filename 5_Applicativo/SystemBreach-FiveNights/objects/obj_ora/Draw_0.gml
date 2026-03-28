@@ -8,4 +8,5 @@ draw_set_valign(fa_top);
 
 // Disegna numero sopra con colore rosso horror
 draw_set_color(c_white);
-draw_text(1272, 55, string(current_number));
+draw_text(1207, 5, string(current_number)+" AM");
+draw_text(1187, 45, "NIGHT "+string(global.night));

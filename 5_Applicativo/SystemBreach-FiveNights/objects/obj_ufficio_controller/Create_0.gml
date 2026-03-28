@@ -12,10 +12,10 @@ function layer_maschera_active()
 //cambio dello stato dei firewall
 function aggiorna_layer_fw()
 {
-	layer_set_visible("Assets_fw1Off", fw1Active == false);
-	layer_set_visible("Assets_fw1On", fw1Active == true)
-	layer_set_visible("Assets_fw2Off", fw2Active == false);
-	layer_set_visible("Assets_fw2On", fw2Active == true);
+	layer_set_visible("Assets_fw1Off", global.firewall1 == false);
+	layer_set_visible("Assets_fw1On", global.firewall1 == true)
+	layer_set_visible("Assets_fw2Off", global.firewall2 == false);
+	layer_set_visible("Assets_fw2On", global.firewall2 == true);
 }
 
 layer_maschera_active();

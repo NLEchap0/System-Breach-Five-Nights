@@ -7,3 +7,4 @@ global.firewall1 = false;
 global.firewall2 = false;
 global.night = 1;
 global.trigger= false
+global.win = false;

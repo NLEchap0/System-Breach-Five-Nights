@@ -53,6 +53,7 @@
     {"id":{"name":"obj_button_cam4","path":"objects/obj_button_cam4/obj_button_cam4.yy",},},
     {"id":{"name":"obj_button_cam5","path":"objects/obj_button_cam5/obj_button_cam5.yy",},},
     {"id":{"name":"obj_button_cam6","path":"objects/obj_button_cam6/obj_button_cam6.yy",},},
+    {"id":{"name":"obj_button_carica","path":"objects/obj_button_carica/obj_button_carica.yy",},},
     {"id":{"name":"obj_button_freccia_destra","path":"objects/obj_button_freccia_destra/obj_button_freccia_destra.yy",},},
     {"id":{"name":"obj_button_freccia_sinistra","path":"objects/obj_button_freccia_sinistra/obj_button_freccia_sinistra.yy",},},
     {"id":{"name":"obj_button_fw1","path":"objects/obj_button_fw1/obj_button_fw1.yy",},},

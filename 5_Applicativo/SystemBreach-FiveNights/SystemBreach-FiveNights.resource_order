@@ -4,6 +4,7 @@
     {"name":"End","order":5,"path":"folders/Game/End.yy",},
     {"name":"Start","order":2,"path":"folders/Game/Start.yy",},
     {"name":"Telecamere","order":3,"path":"folders/Game/Telecamere.yy",},
+    {"name":"Stanza_Singularity","order":16,"path":"folders/Game/Telecamere/Stanza_Singularity.yy",},
     {"name":"Stanze_Hacking","order":3,"path":"folders/Game/Telecamere/Stanze_Hacking.yy",},
     {"name":"Uffici","order":2,"path":"folders/Game/Telecamere/Uffici.yy",},
     {"name":"Ufficio_Ceo","order":1,"path":"folders/Game/Telecamere/Ufficio_Ceo.yy",},

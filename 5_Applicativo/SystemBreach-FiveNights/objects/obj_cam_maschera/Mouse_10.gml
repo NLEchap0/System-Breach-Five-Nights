@@ -28,6 +28,7 @@ if (!global.trigger)
 	
 	else{
 		global.camActive = false;
+		video_close();
 		room_goto(rm_ufficio);
 	}
 }

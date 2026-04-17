@@ -6,7 +6,7 @@ void main() {
     
     // Definiamo il colore "verde" da rimuovere
     vec3 keyColor = vec3(0.0, 1.0, 0.0); 
-    float threshold = 0.4; // Quanto deve essere simile al verde
+    float threshold = 0.5; // Quanto deve essere simile al verde
     
     // Calcoliamo la distanza tra il colore del pixel e il verde
     float diff = distance(texColor.rgb, keyColor);

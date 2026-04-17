@@ -1,12 +1,6 @@
-video_open("static.mp4"); // Il nome deve corrispondere al file negli Included Files
-video_enable_loop(true);      // Opzionale: se vuoi che ricominci da capo
-
-disegna_il_mio_video = function(_x, _y) {
-	var _video_data = video_draw();
-	if (_video_data[0] == 0) {
-	    shader_set(shd_chromakey);
-	    draw_surface(_video_data[1], x, y);
-	    shader_reset();
-	}
-}
-
+video_x = x;
+video_y = y;
+video_aperto = false; // Variabile di controllo
+	
+video_close();
+alarm[0]=5;

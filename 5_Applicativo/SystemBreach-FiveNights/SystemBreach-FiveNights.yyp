@@ -78,6 +78,7 @@
     {"id":{"name":"obj_manual_controller","path":"objects/obj_manual_controller/obj_manual_controller.yy",},},
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},},
     {"id":{"name":"obj_ora","path":"objects/obj_ora/obj_ora.yy",},},
+    {"id":{"name":"obj_singularity_controller","path":"objects/obj_singularity_controller/obj_singularity_controller.yy",},},
     {"id":{"name":"obj_stanza_singularity_controller","path":"objects/obj_stanza_singularity_controller/obj_stanza_singularity_controller.yy",},},
     {"id":{"name":"obj_uffici_controller","path":"objects/obj_uffici_controller/obj_uffici_controller.yy",},},
     {"id":{"name":"obj_ufficio_ceo_controller","path":"objects/obj_ufficio_ceo_controller/obj_ufficio_ceo_controller.yy",},},

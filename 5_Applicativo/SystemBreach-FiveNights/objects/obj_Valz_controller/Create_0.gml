@@ -7,8 +7,6 @@ movimento = function(){ 
       if(global.posizioneValz != 12 && global.posizioneValz != 22){
             ranInt = irandom_range(1, 50);
             if (ranInt <= valZ) {
-                  show_debug_message("movimento VAL-Z");
-				  show_debug_message(global.posizioneValz);
                   switch(global.posizioneValz) {
 			            case 6:  possibilita1 = 51; possibilita2 = 0;  break;
 			            case 51: possibilita1 = 52; possibilita2 = 0;  break;
@@ -32,10 +30,8 @@ movimento = function(){ 
 				  if(global.posizioneValz == 12 || global.posizioneValz == 22){
                   		checkAttacco();
 				  }
-				  show_debug_message(global.posizioneValz);
-      		}else{
-                  show_debug_message("no movimento VAL-Z");
-           	}
+				  show_debug_message("Posizione attuale: " + string(global.posizioneValz));
+      		}
       	}else{
 			count = 0;
 		}
@@ -47,9 +43,11 @@ checkAttacco = function(){
 }
 
 attacco = function(){
-	if((global.firewall1 == undefined && global.posizioneValz == 12)
-	|| (global.firewall2 == undefined && global.posizioneValz == 22)){
-		show_debug_message("Jumpscare");
+	if((global.firewall1 == undefined && global.posizioneValz == 12)||
+	(global.firewall1 == false && global.posizioneValz == 12)|| 
+	(global.firewall2 == undefined && global.posizioneValz == 22)||
+	(global.firewall2 == false && global.posizioneValz == 22)){
+		show_debug_message("Jumpscare VAL-Z");
 		global.ucciso = 1;
 		room_goto(rm_ufficio);
 		

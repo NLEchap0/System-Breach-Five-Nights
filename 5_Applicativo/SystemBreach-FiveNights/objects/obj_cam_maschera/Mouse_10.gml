@@ -15,7 +15,7 @@ if (!global.trigger)
 				//room_goto(rm_ufficio_ceo);
 				break;
 			case 4:
-				//room_goto(rm_ufficio_ceo);
+				room_goto(rm_singularity);
 				break;
 			case 5:
 				room_goto(rm_uffici);

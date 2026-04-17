@@ -10,3 +10,4 @@ global.trigger= false
 global.win = false;
 global.waiting_for_office = false;
 global.ucciso = 0; //1 valZ 2 e 3 altrri animatronici 
+global.video_aperto = false;

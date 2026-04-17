@@ -1,4 +1,4 @@
-if (video_aperto) {
+if (global.video_aperto) {
     var _video_data = video_draw();
     if (_video_data[0] == 0) {
         var _surf = _video_data[1];

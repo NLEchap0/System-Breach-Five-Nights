@@ -13,7 +13,7 @@ with(obj_ufficio_controller){
 		global.firewall1 = true;
 		global.firewall2 = undefined;
 		aggiorna_layer_fw();
-		ricaricaFw = time_source_create(time_source_game, 5, time_source_units_seconds, reset, [], 1);
+		ricaricaFw = time_source_create(time_source_game, 10, time_source_units_seconds, reset, [], 1);
 		time_source_start(ricaricaFw);
 	}	
 }

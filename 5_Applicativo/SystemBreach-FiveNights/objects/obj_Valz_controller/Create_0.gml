@@ -42,7 +42,7 @@ movimento = function(){ 
 }
 
 checkAttacco = function(){
-    attacco_timer = time_source_create(time_source_game, 7.5, time_source_units_seconds, attacco, [], 1); // -1 significa che si ripete all'infinito
+    attacco_timer = time_source_create(time_source_game, 6, time_source_units_seconds, attacco, [], 1); // -1 significa che si ripete all'infinito
 	time_source_start(attacco_timer);
 }
 
@@ -60,6 +60,6 @@ attacco = function(){
 }
 
 
-controllo_posizione = time_source_create(time_source_game, 0.5, time_source_units_seconds, movimento, [], -1); // -1 significa che si ripete all'infinito
+controllo_posizione = time_source_create(time_source_game, 5, time_source_units_seconds, movimento, [], -1); // -1 significa che si ripete all'infinito
 
 time_source_start(controllo_posizione);

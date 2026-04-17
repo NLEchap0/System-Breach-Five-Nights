@@ -3,7 +3,7 @@ possibilita1 = 0;
 possibilita2 = 0;
 count = 0;
 
-movimento = function(){ 
+movimento = function(){ /*
       if(global.posizioneValz != 12 && global.posizioneValz != 22){
             ranInt = irandom_range(1, 50);
             if (ranInt <= valZ) {
@@ -34,7 +34,7 @@ movimento = function(){ 
       		}
       	}else{
 			count = 0;
-		}
+		}*/
 }
 
 checkAttacco = function(){

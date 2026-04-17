@@ -20,7 +20,6 @@ movimento = function(){ 
                         global.posizioneValz = possibilita1;
                   }else{
 						if(count <= 2){
-							show_debug_message("ciao");
 							fiftyFifty = irandom_range(1, 2);
 			                if (fiftyFifty == 1) {
 			                    global.posizioneValz = possibilita1;
@@ -51,8 +50,8 @@ attacco = function(){
 	if((global.firewall1 == false && global.posizioneValz == 12)
 	|| (global.firewall2 == false && global.posizioneValz == 22)){
 		show_debug_message("Jumpscare");
-		video_close()
-		alarm[0]=5;
+		global.ucciso = 1;
+		room_goto(rm_ufficio);
 		
 	 
 	}else{

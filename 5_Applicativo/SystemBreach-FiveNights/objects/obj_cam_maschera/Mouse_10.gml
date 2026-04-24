@@ -12,7 +12,7 @@ if (!global.trigger && !global.lock)
 				room_goto(rm_hacking_destra);
 				break;
 			case 3:
-				//room_goto(rm_ufficio_ceo);
+				room_goto(rm_unknown);
 				break;
 			case 4:
 				room_goto(rm_singularity);

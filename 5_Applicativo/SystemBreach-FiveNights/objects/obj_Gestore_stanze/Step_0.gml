@@ -1,4 +1,19 @@
  switch (room) {
+		case rm_ufficio:
+			if(global.lock){
+				
+				layer_set_visible("Assets_camOff",false);
+				
+				with(obj_ufficio_controller){
+					aggiorna_layer_fw();
+				}
+				
+			}else{
+				
+				layer_set_visible("Assets_camOff",true);
+			}
+		
+		break;
         case rm_ufficio_ceo:
 			layer_set_visible("Assets_valz_pos6", false);
 			if(global.posizioneValz==6){

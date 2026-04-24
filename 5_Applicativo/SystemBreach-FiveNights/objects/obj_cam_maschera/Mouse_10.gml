@@ -1,5 +1,5 @@
 
-if (!global.trigger)
+if (!global.trigger && !global.lock)
 {
 	global.trigger = true;
 	if(!global.mascheraActive && !global.camActive){

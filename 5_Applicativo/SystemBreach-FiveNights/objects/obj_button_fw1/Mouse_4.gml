@@ -8,7 +8,7 @@ function reset(){
 }
 with(obj_ufficio_controller){
 	
-	if(!global.firewall1 && !global.firewall2){
+	if(!global.firewall1 && !global.firewall2 && !global.lock){
 		
 		global.firewall1 = true;
 		global.firewall2 = undefined;

@@ -1,6 +1,10 @@
 with (obj_ora) {
     instance_destroy();
 }
+with(obj_singularity_controller){
+	instance_destroy();
+}
+
 with (obj_Valz_controller) {
     if (variable_instance_exists(id, "attacco_timer")) {
         if (time_source_exists(attacco_timer)) {

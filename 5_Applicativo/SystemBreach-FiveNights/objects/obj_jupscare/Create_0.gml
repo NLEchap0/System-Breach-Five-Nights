@@ -1,3 +1,6 @@
+with(obj_singularity_controller){
+	time_source_destroy(controllo_posizione);
+}
 switch(global.ucciso){
 	case 1:
 		video_open("jumpscare.mp4");

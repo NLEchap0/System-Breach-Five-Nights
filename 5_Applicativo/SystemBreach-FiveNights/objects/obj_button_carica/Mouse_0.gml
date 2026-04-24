@@ -3,5 +3,3 @@ if(global.carica <100){
 	global.carica += 0.2;
 
 }
-
-show_debug_message("akdsokds");

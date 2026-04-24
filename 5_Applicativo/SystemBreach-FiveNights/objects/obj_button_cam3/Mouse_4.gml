@@ -1,7 +1,7 @@
-/*global.currCam = 3;
+global.currCam = 3;
 
 if (!global.video_aperto) {
 	video_close();
 }
 
-alarm[0]=2;*/
+alarm[0]=2;

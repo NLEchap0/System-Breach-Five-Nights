@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"JumpscareVAL_Z",
+  "%Name":"obj_unknown_controller",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"JumpscareVAL_Z",
+  "name":"obj_unknown_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"SystemBreach-FiveNights",
-    "path":"SystemBreach-FiveNights.yyp",
+    "name":"Ufficio",
+    "path":"folders/Game/Ufficio.yy",
   },
   "parentObjectId":null,
   "persistent":false,

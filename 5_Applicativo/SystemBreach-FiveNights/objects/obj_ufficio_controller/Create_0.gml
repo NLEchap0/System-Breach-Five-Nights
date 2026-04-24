@@ -1,6 +1,3 @@
-fw1Active = false;
-fw2Active = false;
-
 //cambio degli assets attivi in base allo stato della maschera
 function layer_maschera_active()
 {

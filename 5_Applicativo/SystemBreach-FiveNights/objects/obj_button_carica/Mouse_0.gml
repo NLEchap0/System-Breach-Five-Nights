@@ -3,4 +3,5 @@ if(global.carica <100){
 	global.carica += 0.2;
 
 }
-global.caricamento=false
+
+show_debug_message("akdsokds");

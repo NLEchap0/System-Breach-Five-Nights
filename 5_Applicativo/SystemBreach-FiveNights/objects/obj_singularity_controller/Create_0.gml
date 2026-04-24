@@ -7,6 +7,7 @@ abbasso = function(){
 		if(global.carica >=0&& global.caricamento==false){
 			global.carica -= velocita;
 			
+			
 		}
 		else{
 			global.lock = true;

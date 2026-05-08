@@ -115,6 +115,7 @@
     {"id":{"name":"backgroundMenuManualeMezzo","path":"sprites/backgroundMenuManualeMezzo/backgroundMenuManualeMezzo.yy",},},
     {"id":{"name":"camOff","path":"sprites/camOff/camOff.yy",},},
     {"id":{"name":"camOn","path":"sprites/camOn/camOn.yy",},},
+    {"id":{"name":"charge","path":"sprites/charge/charge.yy",},},
     {"id":{"name":"fw1off","path":"sprites/fw1off/fw1off.yy",},},
     {"id":{"name":"fw1on","path":"sprites/fw1on/fw1on.yy",},},
     {"id":{"name":"fw2off","path":"sprites/fw2off/fw2off.yy",},},

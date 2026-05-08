@@ -8,6 +8,9 @@ if (current_time - last_update >= 60000) {
 		current_number++;
 	}else {
         video_close();
+		if(instance_exists(obj_unknown_controller)){
+		    with(obj_unknown_controller){ resetUnknown(); }
+		}
 		alarm[0] = 1;
 		global.win = true;
     }

@@ -17,3 +17,15 @@ global.caricamento=false
 global.VelocitaScaricamento = 0.1; //per notte 1
 global.lock = false;
 global.timelock= 10
+
+//the unknown
+global.posizioneUnknown = 0;
+global.barraUnknown = 100;
+global.unknownAttivo = false;
+global.unknownMovimento = false;
+global.VelocitaScendereBarra = 0.3;
+if(instance_exists(obj_unknown_controller)){
+    with(obj_unknown_controller){
+        resetUnknown();
+    }
+}

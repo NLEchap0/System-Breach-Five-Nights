@@ -132,6 +132,8 @@
     {"id":{"name":"telecamere","path":"sprites/telecamere/telecamere.yy",},},
     {"id":{"name":"TheSingularity_manuale","path":"sprites/TheSingularity_manuale/TheSingularity_manuale.yy",},},
     {"id":{"name":"TheUnknown_manuale","path":"sprites/TheUnknown_manuale/TheUnknown_manuale.yy",},},
+    {"id":{"name":"TheUnknown_origine","path":"sprites/TheUnknown_origine/TheUnknown_origine.yy",},},
+    {"id":{"name":"TheUnknown_uffici","path":"sprites/TheUnknown_uffici/TheUnknown_uffici.yy",},},
     {"id":{"name":"uffici_avanti","path":"sprites/uffici_avanti/uffici_avanti.yy",},},
     {"id":{"name":"uffici_dietro","path":"sprites/uffici_dietro/uffici_dietro.yy",},},
     {"id":{"name":"uffici","path":"sprites/uffici/uffici.yy",},},

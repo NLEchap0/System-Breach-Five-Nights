@@ -86,6 +86,8 @@
     {"name":"stanza_valz","order":1,"path":"sprites/stanza_valz/stanza_valz.yy",},
     {"name":"TheSingularity_manuale","order":4,"path":"sprites/TheSingularity_manuale/TheSingularity_manuale.yy",},
     {"name":"TheUnknown_manuale","order":5,"path":"sprites/TheUnknown_manuale/TheUnknown_manuale.yy",},
+    {"name":"TheUnknown_origine","order":3,"path":"sprites/TheUnknown_origine/TheUnknown_origine.yy",},
+    {"name":"TheUnknown_uffici","order":5,"path":"sprites/TheUnknown_uffici/TheUnknown_uffici.yy",},
     {"name":"uffici_avanti","order":1,"path":"sprites/uffici_avanti/uffici_avanti.yy",},
     {"name":"uffici_dietro","order":2,"path":"sprites/uffici_dietro/uffici_dietro.yy",},
     {"name":"uffici","order":3,"path":"sprites/uffici/uffici.yy",},

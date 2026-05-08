@@ -23,3 +23,5 @@ function aggiorna_layer_fw()
 
 layer_maschera_active();
 aggiorna_layer_fw();
+
+audio_play_sound(in_game_background_music, 1, true);

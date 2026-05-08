@@ -1,3 +1,5 @@
+audio_stop_all();
+
 with(obj_singularity_controller){
 	time_source_destroy(controllo_posizione);
 }

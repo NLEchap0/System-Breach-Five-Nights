@@ -106,6 +106,7 @@
     {"id":{"name":"shdr_green_screen","path":"shaders/shdr_green_screen/shdr_green_screen.yy",},},
     {"id":{"name":"backgroundAudio","path":"sounds/backgroundAudio/backgroundAudio.yy",},},
     {"id":{"name":"click","path":"sounds/click/click.yy",},},
+    {"id":{"name":"in_game_background_music","path":"sounds/in_game_background_music/in_game_background_music.yy",},},
     {"id":{"name":"attacco12","path":"sprites/attacco12/attacco12.yy",},},
     {"id":{"name":"attacco22","path":"sprites/attacco22/attacco22.yy",},},
     {"id":{"name":"backgroundMenuImpostazioniOff","path":"sprites/backgroundMenuImpostazioniOff/backgroundMenuImpostazioniOff.yy",},},

@@ -1,3 +1,5 @@
+audio_stop_all();
+
 with (obj_ora) {
     instance_destroy();
 }

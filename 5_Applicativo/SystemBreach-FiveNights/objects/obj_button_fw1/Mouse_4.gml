@@ -1,10 +1,13 @@
 function reset(){
-    global.firewall2 = false;
-    global.firewall1 = false;
+	if(!global.lock){
+		global.firewall2 = false;
+		global.firewall1 = false;
 
-    with (obj_ufficio_controller) {
+		with (obj_ufficio_controller) {
         aggiorna_layer_fw();
-    }
+		}
+	}
+    
 }
 with(obj_ufficio_controller){
 	

@@ -26,6 +26,8 @@ with (obj_Gestore_stanze) {
 global.posizioneValz = 6;
 global.currCam = 6;
 global.ucciso = 0;
+global.carica = 100;
+global.lock	= false;
 
 video_enable_loop(false);
 if(global.win){

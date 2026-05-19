@@ -15,44 +15,45 @@ scendiBarra = function() {
         if(global.barraUnknown > 0){
             global.barraUnknown -= global.VelocitaBarra;
         }
-        if(global.barraUnknown <= 0 && !global.unknownMovimento){
+        else{
             global.unknownMovimento = true;
             global.unknownAttivo = false;
+			time_source_destroy(controllo_attivazione);
+			time_source_destroy(controllo_barra);
+			controllo_movimento = time_source_create(time_source_game, 4, time_source_units_seconds, movimento, [], -1);
+			time_source_start(controllo_movimento);
             show_debug_message("UNKNOWN: Barra sotto 50% - movimento iniziato");
-            avviaAttaccoRandom();
+            avvio_attacco = time_source_create(time_source_game, irandom_range(global.minTime, global.maxTime), time_source_units_seconds, attacco, [], -1);
+			time_source_start(avvio_attacco);
         }
     }
 }
 
 movimento = function() {
-    if(!inGioco()) return;
-    if(global.unknownMovimento){
-        var posPrec = global.posizioneUnknown;
-        global.posizioneUnknown = irandom(3);
-        show_debug_message("UNKNOWN: Movimento " + string(posPrec) + " -> " + string(global.posizioneUnknown));
-    }
+	var stanza_scelta = irandom_range(1, 5);
+	switch(stanza_scelta){
+		case 3: global.posizioneUnknown = 41; break;
+		case 4: global.posizioneUnknown = 51; break;
+		default: global.posizioneUnknown = -1; break;
+	}
+    show_debug_message("UNKNOWN: Movimento ");
 }
 
-avviaAttaccoRandom = function() {
-    if(global.unknownMovimento){
-        var delay = irandom_range(10, 25);
-        attacco_timer = time_source_create(time_source_game, delay, time_source_units_seconds, attaccaOra, [], 1);
-        time_source_start(attacco_timer);
-        show_debug_message("UNKNOWN: Timer attacco random (" + string(delay) + "s)");
-    }
-}
-
-attaccaOra = function() {
+//finire attacco
+attacco = function() {
+	time_source_stop(controllo_movimento);
+	time_source_stop(avvio_attacco);
     if(!global.mascheraActive){
         show_debug_message("UNKNOWN: ATTACCO - maschera assente");
         global.ucciso = 2;
         room_goto(rm_ufficio);
     }else{
-        show_debug_message("UNKNOWN: Attacco fallito - maschera indossata, ritorna in cella");
-        global.posizioneUnknown = 0;
-        global.barraUnknown = 100;
-        global.unknownMovimento = false;
-        global.unknownAttivo = false;
+        show_debug_message("UNKNOWN: Attacco fallito - maschera indossata");
+        global.posizioneUnknown = -1;
+		time_source_reset(controllo_movimento);
+		time_source_reset(avvio_attacco);
+		time_source_start(controllo_movimento);
+		time_source_start(avvio_attacco);
     }
 }
 
@@ -60,6 +61,7 @@ ripristino = function(){
 	global.unknownStordito = false
 }
 
+//implementare attivazione unkown se shock si avvia quando è disattivato
 shock = function() {
     if(global.unknownAttivo && global.barraUnknown > 50){
         global.barraUnknown = 100;
@@ -87,5 +89,4 @@ time_source_start(controllo_attivazione);
 controllo_barra = time_source_create(time_source_game, 0.05, time_source_units_seconds, scendiBarra, [], -1);
 time_source_start(controllo_barra);
 
-controllo_movimento = time_source_create(time_source_game, 8, time_source_units_seconds, movimento, [], -1);
-time_source_start(controllo_movimento);
+

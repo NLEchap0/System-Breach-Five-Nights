@@ -1,5 +1,5 @@
 
-if (!global.trigger)
+if (!global.trigger && !global.lock)
 {
 	global.trigger = true;
 	if(!global.mascheraActive && !global.camActive){
@@ -12,10 +12,10 @@ if (!global.trigger)
 				room_goto(rm_hacking_destra);
 				break;
 			case 3:
-				//room_goto(rm_ufficio_ceo);
+				room_goto(rm_unknown);
 				break;
 			case 4:
-				//room_goto(rm_ufficio_ceo);
+				room_goto(rm_singularity);
 				break;
 			case 5:
 				room_goto(rm_uffici);
@@ -28,6 +28,7 @@ if (!global.trigger)
 	
 	else{
 		global.camActive = false;
+		video_close();
 		room_goto(rm_ufficio);
 	}
 }

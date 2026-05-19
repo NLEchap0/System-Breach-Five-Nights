@@ -1,6 +1,3 @@
-fw1Active = false;
-fw2Active = false;
-
 //cambio degli assets attivi in base allo stato della maschera
 function layer_maschera_active()
 {
@@ -26,3 +23,5 @@ function aggiorna_layer_fw()
 
 layer_maschera_active();
 aggiorna_layer_fw();
+
+audio_play_sound(in_game_background_music, 1, true);

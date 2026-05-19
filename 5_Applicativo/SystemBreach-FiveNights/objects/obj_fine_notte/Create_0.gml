@@ -1,6 +1,12 @@
+audio_stop_all();
+
 with (obj_ora) {
     instance_destroy();
 }
+with(obj_singularity_controller){
+	instance_destroy();
+}
+
 with (obj_Valz_controller) {
     if (variable_instance_exists(id, "attacco_timer")) {
         if (time_source_exists(attacco_timer)) {
@@ -21,6 +27,9 @@ with (obj_Gestore_stanze) {
 
 global.posizioneValz = 6;
 global.currCam = 6;
+global.ucciso = 0;
+global.carica = 100;
+global.lock	= false;
 
 video_enable_loop(false);
 if(global.win){

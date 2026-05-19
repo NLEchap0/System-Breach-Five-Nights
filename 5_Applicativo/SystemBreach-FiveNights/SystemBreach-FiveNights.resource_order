@@ -30,6 +30,7 @@
     {"name":"obj_button_impostazioni","order":15,"path":"objects/obj_button_impostazioni/obj_button_impostazioni.yy",},
     {"name":"obj_button_indietro","order":18,"path":"objects/obj_button_indietro/obj_button_indietro.yy",},
     {"name":"obj_button_manuale","order":12,"path":"objects/obj_button_manuale/obj_button_manuale.yy",},
+    {"name":"obj_button_scossa","order":4,"path":"objects/obj_button_scossa/obj_button_scossa.yy",},
     {"name":"obj_cam_cambio","order":15,"path":"objects/obj_cam_cambio/obj_cam_cambio.yy",},
     {"name":"obj_cam_maschera","order":12,"path":"objects/obj_cam_maschera/obj_cam_maschera.yy",},
     {"name":"obj_cam_statica","order":14,"path":"objects/obj_cam_statica/obj_cam_statica.yy",},

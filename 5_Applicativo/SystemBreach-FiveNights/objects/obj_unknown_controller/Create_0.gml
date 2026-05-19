@@ -1,33 +1,21 @@
 unknownAggressivita = 30;
-shockCooldown = 0;
 
-inGioco = function() {
-    return (room == rm_ufficio || room == rm_hacking_sinistra || room == rm_hacking_destra ||
-            room == rm_unknown || room == rm_singularity || room == rm_ufficio_ceo || room == rm_uffici);
-}
-
-attivaBarra = function() {
-    if(!inGioco()) return;
-    if(shockCooldown > 0){
-        shockCooldown--;
-        return;
-    }
-    if(!global.unknownAttivo && !global.unknownMovimento && global.posizioneUnknown == 0 && global.barraUnknown >= 100){
-        var r = irandom_range(1, 50);
-        if(r <= 15){
-            global.unknownAttivo = true;
-            show_debug_message("UNKNOWN: Barra attivata (scarica iniziata)");
-        }
+attivaUnknown = function() {
+    if(global.unknownStordito) return;
+	
+    var r = irandom_range(1, 50);
+    if(r <= unknownAggressivita){
+        global.unknownAttivo = true;
+        show_debug_message("UNKNOWN: Barra attivata (scarica iniziata)");
     }
 }
 
 scendiBarra = function() {
-    if(!inGioco()) return;
     if(global.unknownAttivo){
         if(global.barraUnknown > 0){
-            global.barraUnknown -= global.VelocitaScendereBarra;
+            global.barraUnknown -= global.VelocitaBarra;
         }
-        if(global.barraUnknown <= 50 && !global.unknownMovimento){
+        if(global.barraUnknown <= 0 && !global.unknownMovimento){
             global.unknownMovimento = true;
             global.unknownAttivo = false;
             show_debug_message("UNKNOWN: Barra sotto 50% - movimento iniziato");
@@ -68,12 +56,19 @@ attaccaOra = function() {
     }
 }
 
+ripristino = function(){
+	global.unknownStordito = false
+}
+
 shock = function() {
     if(global.unknownAttivo && global.barraUnknown > 50){
         global.barraUnknown = 100;
         global.unknownAttivo = false;
-        shockCooldown = 20;
-        show_debug_message("UNKNOWN: Scossa data - cooldown " + string(shockCooldown));
+		global.unknownStordito = true;
+		global.scossaCarica = false;
+		ripristinoUnknown = time_source_create(time_source_game, 8, time_source_units_seconds, ripristino, [], 1)
+        time_source_start(ripristinoUnknown);
+		show_debug_message("UNKNOWN: Scossa data")
     }
 }
 
@@ -86,7 +81,7 @@ resetUnknown = function() {
     shockCooldown = 0;
 }
 
-controllo_attivazione = time_source_create(time_source_game, 3, time_source_units_seconds, attivaBarra, [], -1);
+controllo_attivazione = time_source_create(time_source_game, 3, time_source_units_seconds, attivaUnknown, [], -1);
 time_source_start(controllo_attivazione);
 
 controllo_barra = time_source_create(time_source_game, 0.05, time_source_units_seconds, scendiBarra, [], -1);

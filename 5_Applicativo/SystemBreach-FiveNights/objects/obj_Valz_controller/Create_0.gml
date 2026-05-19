@@ -1,4 +1,4 @@
-valZ = 50; // valore da 1 a 50 che definisce la aggressività dell'animatronico
+valZ = 0; // valore da 1 a 50 che definisce la aggressività dell'animatronico
 possibilita1 = 0;
 possibilita2 = 0;
 count = 0;

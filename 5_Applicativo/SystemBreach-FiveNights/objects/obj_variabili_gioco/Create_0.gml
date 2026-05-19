@@ -22,10 +22,7 @@ global.timelock= 10
 global.posizioneUnknown = 0;
 global.barraUnknown = 100;
 global.unknownAttivo = false;
+global.unknownStordito = false;
 global.unknownMovimento = false;
 global.VelocitaScendereBarra = 0.3;
-if(instance_exists(obj_unknown_controller)){
-    with(obj_unknown_controller){
-        resetUnknown();
-    }
-}
+global.scossaCarica = true;

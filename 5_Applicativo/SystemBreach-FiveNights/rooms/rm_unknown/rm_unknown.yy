@@ -16,6 +16,7 @@
     {"name":"inst_269D612","path":"rooms/rm_unknown/rm_unknown.yy",},
     {"name":"inst_618EA80D","path":"rooms/rm_unknown/rm_unknown.yy",},
     {"name":"inst_3CA3CE04","path":"rooms/rm_unknown/rm_unknown.yy",},
+    {"name":"inst_25F9FB6","path":"rooms/rm_unknown/rm_unknown.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -40,6 +41,7 @@
         {"$GMRInstance":"v4","%Name":"inst_6720FB88","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6720FB88","objectId":{"name":"obj_button_cam5","path":"objects/obj_button_cam5/obj_button_cam5.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.109375,"scaleY":0.609375,"x":1116.0,"y":392.0,},
         {"$GMRInstance":"v4","%Name":"inst_2C496C57","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C496C57","objectId":{"name":"obj_button_cam6","path":"objects/obj_button_cam6/obj_button_cam6.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.109375,"scaleY":0.609375,"x":1117.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_6F9DB6F2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F9DB6F2","objectId":{"name":"obj_cam_maschera","path":"objects/obj_cam_maschera/obj_cam_maschera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":10.1875,"scaleY":1.59375,"x":361.0,"y":672.0,},
+        {"$GMRInstance":"v4","%Name":"inst_25F9FB6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25F9FB6","objectId":{"name":"obj_button_scossa","path":"objects/obj_button_scossa/obj_button_scossa.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.5,"scaleY":2.5,"x":32.0,"y":544.0,},
         {"$GMRInstance":"v4","%Name":"inst_3CA3CE04","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3CA3CE04","objectId":{"name":"obj_stanza_unknown_controller","path":"objects/obj_stanza_unknown_controller/obj_stanza_unknown_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_stanza_unknown","assets":[

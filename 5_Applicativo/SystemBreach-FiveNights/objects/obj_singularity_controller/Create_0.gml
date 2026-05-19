@@ -1,4 +1,4 @@
-velocita = global.VelocitaScaricamento
+velocita = 0 //global.VelocitaScaricamento
 
 lock = function(){
 	

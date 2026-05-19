@@ -42,7 +42,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"SystemBreach-FiveNights",
   "resources":[
@@ -62,6 +62,7 @@
     {"id":{"name":"obj_button_impostazioni","path":"objects/obj_button_impostazioni/obj_button_impostazioni.yy",},},
     {"id":{"name":"obj_button_indietro","path":"objects/obj_button_indietro/obj_button_indietro.yy",},},
     {"id":{"name":"obj_button_manuale","path":"objects/obj_button_manuale/obj_button_manuale.yy",},},
+    {"id":{"name":"obj_button_scossa","path":"objects/obj_button_scossa/obj_button_scossa.yy",},},
     {"id":{"name":"obj_cam_cambio","path":"objects/obj_cam_cambio/obj_cam_cambio.yy",},},
     {"id":{"name":"obj_cam_maschera","path":"objects/obj_cam_maschera/obj_cam_maschera.yy",},},
     {"id":{"name":"obj_cam_statica","path":"objects/obj_cam_statica/obj_cam_statica.yy",},},

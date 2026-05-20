@@ -13,5 +13,6 @@ with(obj_impostazioni_controller)
 		aggiorna_checkbox();
 	}
 	global.active = active ;
+	aggiornamento_impostazioni("save_data.dat", "NotteSegretaFNAF_2026!");
 }
 audio_play_sound(click, 1, false);

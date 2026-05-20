@@ -40,6 +40,7 @@ if(global.win){
 	video_open("winEnding.mp4");
 	global.night = global.night+1
 	global.win = false
+	aggiornamento_impostazioni("save_data.dat", "NotteSegretaFNAF_2026!");
 }else{
 	
 	video_open("lossEnding.mp4");

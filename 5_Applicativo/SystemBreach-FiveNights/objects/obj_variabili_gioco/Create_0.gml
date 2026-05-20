@@ -29,3 +29,4 @@ global.scossaCarica = true;
 //range tempistica attacco unknown
 global.minTime = 20;
 global.maxTime = 120;
+

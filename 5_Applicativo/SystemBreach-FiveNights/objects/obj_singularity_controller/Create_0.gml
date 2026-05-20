@@ -23,7 +23,7 @@ abbasso = function(){
 		if(global.carica <= 0){
 			room_goto(rm_ufficio)
 			global.lock = true;
-			global.carica = 70;
+			global.carica = 100;
 			global.caricamento = true;
 			global.firewall1 = undefined;
 			global.firewall2 = undefined;

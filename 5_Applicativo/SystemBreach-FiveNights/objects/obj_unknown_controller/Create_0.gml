@@ -7,6 +7,7 @@ attivaUnknown = function() {
     if(r <= unknownAggressivita){
         global.unknownAttivo = true;
 		global.posizioneUnknown = 31;
+		time_source_stop(controllo_attivazione);
         show_debug_message("UNKNOWN: Barra attivata (scarica iniziata)");
     }
 }
@@ -45,6 +46,10 @@ movimento = function() {
 attacco = function() {
 	time_source_stop(controllo_movimento);
 	time_source_stop(avvio_attacco);
+	with(obj_Valz_controller){
+		time_source_pause(controllo_posizione);
+	}
+	
     if(!global.mascheraActive){
         show_debug_message("UNKNOWN: ATTACCO - maschera assente");
         global.ucciso = 2;
@@ -52,20 +57,26 @@ attacco = function() {
     }else{
         show_debug_message("UNKNOWN: Attacco fallito - maschera indossata");
         global.posizioneUnknown = -1;
-		time_source_reset(controllo_movimento);
-		time_source_reset(avvio_attacco);
+		time_source_reconfigure(avvio_attacco, irandom_range(global.minTime, global.maxTime), time_source_units_seconds, attacco, [], -1);
 		time_source_start(controllo_movimento);
 		time_source_start(avvio_attacco);
+		with(obj_Valz_controller){
+			time_source_resume(controllo_posizione);
+		}
     }
 }
 
 ripristino = function(){
 	global.unknownStordito = false
+	time_source_start(controllo_attivazione);
 }
 
 //implementare attivazione unkown se shock si avvia quando è disattivato
 shock = function() {
-    if(global.unknownAttivo && global.barraUnknown > 50){
+	if(!global.unknownAttivo){
+		attivaUnknown();
+	}
+    if(global.barraUnknown > 50){
         global.barraUnknown = 100;
         global.unknownAttivo = false;
 		global.unknownStordito = true;

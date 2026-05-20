@@ -14,6 +14,5 @@ switch(global.ucciso){
 isPaused = false;
 
 riavvio = function(){
-	show_debug_message("ciao");
 	video_resume();
 }

@@ -11,6 +11,8 @@ function reset(){
 with(obj_ufficio_controller){
 	if(!global.firewall1 && !global.firewall2 && !global.lock){
 		
+		audio_play_sound(click, 1, false);
+		
 		global.firewall2 = true;
 		global.firewall1 = undefined;
 		

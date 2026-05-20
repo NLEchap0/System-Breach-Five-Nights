@@ -1,4 +1,4 @@
-unknownAggressivita = 0;
+unknownAggressivita = 30;
 
 attivaUnknownRandom = function() {
 	
@@ -34,7 +34,7 @@ scendiBarra = function() {
 			controllo_movimento = time_source_create(time_source_game, 4, time_source_units_seconds, movimento, [], -1);
 			time_source_start(controllo_movimento);
             show_debug_message("UNKNOWN:movimento iniziato");
-            avvio_attacco = time_source_create(time_source_game, irandom_range(global.minTime, global.maxTime), time_source_units_seconds, attacco, [], -1);
+            avvio_attacco = time_source_create(time_source_game, irandom_range(global.minTime, 20), time_source_units_seconds, attacco, [], -1);
 			time_source_start(avvio_attacco);
         }
     }
@@ -58,7 +58,23 @@ attacco = function() {
 		time_source_pause(controllo_posizione);
 	}
 	
-    if(!global.mascheraActive){
+	global.posizioneUnknown = -1;
+	
+	var audio = irandom_range(1, 3);
+	
+	switch(audio){
+		case 1: audio_play_sound(unknown1, 1, false); break;
+		case 2: audio_play_sound(unknown2, 1, false); break;
+		case 3: audio_play_sound(unknown3, 1, false); break;
+	}
+
+	verifica_attacco = time_source_create(time_source_game, 7, time_source_units_seconds, risultatoAttacco, [], 1);
+	time_source_start(verifica_attacco)
+    
+}
+
+risultatoAttacco = function(){
+	if(!global.mascheraActive){
         show_debug_message("UNKNOWN: ATTACCO - maschera assente");
         global.ucciso = 2;
         room_goto(rm_ufficio);
@@ -79,7 +95,7 @@ ripristino = function(){
 	time_source_start(controllo_attivazione);
 }
 
-//implementare attivazione unkown se shock si avvia quando è disattivato
+
 shock = function() {
 	if(!global.unknownAttivo){
 		global.scossaCarica = false;

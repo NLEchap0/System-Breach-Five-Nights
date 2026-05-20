@@ -30,6 +30,10 @@ global.currCam = 6;
 global.ucciso = 0;
 global.carica = 100;
 global.lock	= false;
+global.barraUnknown = 100;
+global.unknownAttivo = false;
+global.unknownStordito = false;
+global.unknownMovimento = false;
 
 video_enable_loop(false);
 if(global.win){

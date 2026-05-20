@@ -4,6 +4,7 @@ if (!global.trigger && !global.lock)
 	global.trigger = true;
 	if(!global.mascheraActive && !global.camActive){
 		global.camActive = true;
+		audio_play_sound(cambio_cam, 1, false);
 		switch(global.currCam){
 			case 1:
 				room_goto(rm_hacking_sinistra);

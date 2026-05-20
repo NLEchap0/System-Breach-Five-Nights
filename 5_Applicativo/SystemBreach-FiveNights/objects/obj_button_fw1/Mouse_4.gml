@@ -13,6 +13,8 @@ with(obj_ufficio_controller){
 	
 	if(!global.firewall1 && !global.firewall2 && !global.lock){
 		
+		audio_play_sound(click, 1, false);
+		
 		global.firewall1 = true;
 		global.firewall2 = undefined;
 		aggiorna_layer_fw();

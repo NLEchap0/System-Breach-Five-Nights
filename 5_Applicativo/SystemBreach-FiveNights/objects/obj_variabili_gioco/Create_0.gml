@@ -20,7 +20,7 @@ global.timelock= 10
 
 //the unknown
 global.posizioneUnknown = -1;
-global.barraUnknown = 100;
+global.barraUnknown = 10;
 global.unknownAttivo = false;
 global.unknownStordito = false;
 global.unknownMovimento = false;

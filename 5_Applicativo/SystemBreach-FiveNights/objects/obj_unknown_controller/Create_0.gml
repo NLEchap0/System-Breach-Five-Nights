@@ -1,6 +1,7 @@
-unknownAggressivita = 30;
+unknownAggressivita = 0;
 
-attivaUnknown = function() {
+attivaUnknownRandom = function() {
+	
     if(global.unknownStordito) return;
 	
     var r = irandom_range(1, 50);
@@ -10,6 +11,13 @@ attivaUnknown = function() {
 		time_source_stop(controllo_attivazione);
         show_debug_message("UNKNOWN: Barra attivata (scarica iniziata)");
     }
+}
+
+attivaUnknown = function() {
+	global.unknownAttivo = true;
+	global.posizioneUnknown = 31;
+	time_source_stop(controllo_attivazione);
+    show_debug_message("UNKNOWN: Barra attivata (scarica iniziata");
 }
 
 scendiBarra = function() {
@@ -74,9 +82,10 @@ ripristino = function(){
 //implementare attivazione unkown se shock si avvia quando è disattivato
 shock = function() {
 	if(!global.unknownAttivo){
+		global.scossaCarica = false;
 		attivaUnknown();
 	}
-    if(global.barraUnknown > 50){
+    else if(global.unknownAttivo && global.barraUnknown > 50){
         global.barraUnknown = 100;
         global.unknownAttivo = false;
 		global.unknownStordito = true;
@@ -97,7 +106,7 @@ resetUnknown = function() {
     shockCooldown = 0;
 }
 
-controllo_attivazione = time_source_create(time_source_game, 3, time_source_units_seconds, attivaUnknown, [], -1);
+controllo_attivazione = time_source_create(time_source_game, 3, time_source_units_seconds, attivaUnknownRandom, [], -1);
 time_source_start(controllo_attivazione);
 
 controllo_barra = time_source_create(time_source_game, 0.05, time_source_units_seconds, scendiBarra, [], -1);

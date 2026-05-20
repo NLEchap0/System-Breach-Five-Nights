@@ -47,6 +47,9 @@
     {"$GMRAssetLayer":"","%Name":"Assets_stanza_unknown","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_6834AE9B","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6834AE9B","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.3334961,"scaleY":0.33217993,"spriteId":{"name":"stanza_theUnknown","path":"sprites/stanza_theUnknown/stanza_theUnknown.yy",},"x":0.0,"y":0.0,},
       ],"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_stanza_unknown","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRAssetLayer":"","%Name":"Assets_stanza_unknown_aperta","assets":[
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_497D4698","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_497D4698","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0286144,"scaleY":1.032258,"spriteId":{"name":"stanza_theUnknown_aperta","path":"sprites/stanza_theUnknown_aperta/stanza_theUnknown_aperta.yy",},"x":0.0,"y":0.0,},
+      ],"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_stanza_unknown_aperta","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"rm_unknown",
   "parent":{

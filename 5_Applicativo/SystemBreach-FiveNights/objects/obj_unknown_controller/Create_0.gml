@@ -6,6 +6,7 @@ attivaUnknown = function() {
     var r = irandom_range(1, 50);
     if(r <= unknownAggressivita){
         global.unknownAttivo = true;
+		global.posizioneUnknown = 31;
         show_debug_message("UNKNOWN: Barra attivata (scarica iniziata)");
     }
 }
@@ -18,11 +19,12 @@ scendiBarra = function() {
         else{
             global.unknownMovimento = true;
             global.unknownAttivo = false;
+			global.posizioneUnknown = -1;
 			time_source_destroy(controllo_attivazione);
 			time_source_destroy(controllo_barra);
 			controllo_movimento = time_source_create(time_source_game, 4, time_source_units_seconds, movimento, [], -1);
 			time_source_start(controllo_movimento);
-            show_debug_message("UNKNOWN: Barra sotto 50% - movimento iniziato");
+            show_debug_message("UNKNOWN:movimento iniziato");
             avvio_attacco = time_source_create(time_source_game, irandom_range(global.minTime, global.maxTime), time_source_units_seconds, attacco, [], -1);
 			time_source_start(avvio_attacco);
         }
@@ -67,6 +69,7 @@ shock = function() {
         global.barraUnknown = 100;
         global.unknownAttivo = false;
 		global.unknownStordito = true;
+		global.posizioneUnknown = -1;
 		global.scossaCarica = false;
 		ripristinoUnknown = time_source_create(time_source_game, 8, time_source_units_seconds, ripristino, [], 1)
         time_source_start(ripristinoUnknown);

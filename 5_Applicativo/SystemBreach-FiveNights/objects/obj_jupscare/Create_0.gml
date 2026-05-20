@@ -14,7 +14,6 @@ switch(global.ucciso){
 		
 	case 2:
 		nomeVideoAperto = "jumpscare-unknown.mp4";
-		global.video_aperto = true;
 		video_open("jumpscare-unknown.mp4");
 		video_enable_loop(false);
 		break;

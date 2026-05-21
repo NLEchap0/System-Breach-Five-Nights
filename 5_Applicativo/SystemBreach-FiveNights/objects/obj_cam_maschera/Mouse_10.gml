@@ -34,6 +34,8 @@ if (!global.trigger && !global.lock || !global.trigger && global.mascheraActive)
 		room_goto(rm_ufficio);
 	}
 	else{
+		audio_play_sound(maschera_suono, 1, false);
+		
 		global.mascheraActive = false;
 		
 		with(obj_ufficio_controller){

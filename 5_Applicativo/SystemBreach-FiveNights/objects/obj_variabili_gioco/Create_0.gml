@@ -18,7 +18,7 @@ global.aggressivitaValZ = 10; //per notte 1
 //singularity
 global.carica = 100;
 global.caricamento=false
-global.VelocitaScaricamento = 0.3; //per notte 1
+global.VelocitaScaricamento = 0.1; //per notte 1
 global.lock = false;
 global.timelock= 10
 
@@ -28,7 +28,7 @@ global.barraUnknown = 100;
 global.unknownAttivo = false;
 global.unknownStordito = false;
 global.unknownMovimento = false;
-global.VelocitaBarra = 0.1;
+global.VelocitaBarra = 0.3;
 global.scossaCarica = true;
 global.aggressivitaUnknown = 10; //per notte 1
 //range tempistica attacco unknown notte 1

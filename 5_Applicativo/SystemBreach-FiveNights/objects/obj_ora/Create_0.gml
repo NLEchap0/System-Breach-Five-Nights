@@ -22,10 +22,10 @@ aggiorna_ora = function(){
 		ora++;
 	}else {
         video_close();
-		alarm[0] = 1;
+		alarm[0] = 2;
 		global.win = true;
     }
 }
 
-controllo_ora = time_source_create(time_source_game, 1, time_source_units_seconds, aggiorna_ora, [], 6)
+controllo_ora = time_source_create(time_source_game, 60, time_source_units_seconds, aggiorna_ora, [], 6)
 time_source_start(controllo_ora);

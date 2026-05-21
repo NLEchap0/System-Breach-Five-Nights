@@ -1,4 +1,6 @@
-if(global.scossaCarica || !global.unknownMovimento){
+if(global.scossaCarica && !global.unknownMovimento){
+	audio_play_sound(scossa_suono, 1, false);
+	
 	with(obj_unknown_controller){
 	    shock();
 	}

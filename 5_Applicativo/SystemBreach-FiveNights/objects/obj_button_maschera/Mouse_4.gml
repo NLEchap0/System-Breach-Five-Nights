@@ -1,3 +1,5 @@
+audio_play_sound(maschera_suono, 1, false);
+
 global.mascheraActive = true;
 
 layer_set_visible("Assets_fw1Off", false);

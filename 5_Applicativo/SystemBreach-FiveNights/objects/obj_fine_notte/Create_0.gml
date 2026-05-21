@@ -19,7 +19,7 @@ global.unknownMovimento = false;
 video_enable_loop(false);
 if(global.win){
 	video_open("winEnding.mp4");
-	if(global.night <= 5){
+	if(global.night < 5){
 		global.night += 1;
 	}
 	else{

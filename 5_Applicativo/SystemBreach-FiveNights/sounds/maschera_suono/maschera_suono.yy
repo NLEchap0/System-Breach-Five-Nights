@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"maschera_suono",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.34600908,
+  "exportDir":"",
+  "name":"maschera_suono",
+  "parent":{
+    "name":"Ufficio",
+    "path":"folders/Game/Ufficio.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"maschera_suono.mp3",
+  "volume":1.0,
+}

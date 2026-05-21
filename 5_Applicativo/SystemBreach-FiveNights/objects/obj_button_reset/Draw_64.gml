@@ -41,7 +41,7 @@ if (mx >= x1 && mx <= x2 && my >= y1 && my <= y2) {
 	    global.brightness = -0.05;
 	    global.contrast   = 1;
 	    global.saturation = 1.1;
-	    global.volume     = 1;
+	    global.volume     = 0.6;
 	    global.active     = 1;
 	    global.notte      = 1;
     
@@ -57,6 +57,8 @@ if (mx >= x1 && mx <= x2 && my >= y1 && my <= y2) {
     
 	    // Salviamo il file criptato, così è come nuovo
 	    salvare_gioco_json_criptato(_impostazioni_iniziali, FILE_IMPOSTAZIONI, CHIAVE_SEGRETISSIMA)
+		
+		audio_master_gain(global.volume);
 		
 		room_goto(rm_menu);
     }

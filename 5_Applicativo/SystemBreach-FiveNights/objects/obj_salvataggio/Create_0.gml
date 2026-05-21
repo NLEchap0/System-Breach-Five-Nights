@@ -26,7 +26,7 @@ if (file_exists(FILE_IMPOSTAZIONI)) {
     global.brightness = -0.05;
     global.contrast   = 1;
     global.saturation = 1.1;
-    global.volume     = 1;
+    global.volume     = 0.6;
     global.active     = 1;
     global.notte      = 1;
     

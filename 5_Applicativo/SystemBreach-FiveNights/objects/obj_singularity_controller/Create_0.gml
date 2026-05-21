@@ -1,3 +1,8 @@
+if (instance_number(obj_singularity_controller) > 1) {
+    instance_destroy();
+    exit;
+}
+
 lock = function(){
 	
 	global.lock=false;

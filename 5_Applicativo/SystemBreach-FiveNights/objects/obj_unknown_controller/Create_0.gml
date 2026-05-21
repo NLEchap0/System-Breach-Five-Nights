@@ -1,3 +1,8 @@
+if (instance_number(obj_unknown_controller) > 1) {
+    instance_destroy();
+    exit;
+}
+
 attivaUnknownRandom = function() {
 	
     if(global.unknownStordito) return;

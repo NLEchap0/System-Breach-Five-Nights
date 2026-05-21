@@ -14,7 +14,7 @@ if (file_exists(FILE_IMPOSTAZIONI)) {
     global.saturation = _dati_caricati.saturation;
     global.volume     = _dati_caricati.volume;
     global.active     = _dati_caricati.active;
-    global.notte      = _dati_caricati.notte;
+    global.night      = _dati_caricati.notte;
 	
 	audio_master_gain(global.volume);
     
@@ -28,7 +28,7 @@ if (file_exists(FILE_IMPOSTAZIONI)) {
     global.saturation = 1.1;
     global.volume     = 0.6;
     global.active     = 1;
-    global.notte      = 1;
+    global.night      = 1;
     
     // Creiamo la struct con questi valori di default per salvarli subito
     var _impostazioni_iniziali = {
@@ -37,7 +37,7 @@ if (file_exists(FILE_IMPOSTAZIONI)) {
         saturation : global.saturation,
         volume     : global.volume,
         active     : global.active,
-        notte      : global.notte
+        notte      : global.night
     };
     
     // Salviamo il file criptato per la prima volta, così è pronto per il futuro

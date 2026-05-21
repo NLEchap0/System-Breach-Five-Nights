@@ -22,7 +22,7 @@ function aggiornamento_impostazioni(_filename, _chiave_segreta) {
         saturation : global.saturation,
         volume     : global.volume,
         active     : global.active,
-        notte      : global.notte
+        notte      : global.night
     };
     
     // 1. Convertiamo in testo JSON

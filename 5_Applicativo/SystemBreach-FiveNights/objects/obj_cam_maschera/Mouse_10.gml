@@ -1,5 +1,5 @@
 
-if (!global.trigger && !global.lock)
+if (!global.trigger && !global.lock || !global.trigger && global.mascheraActive)
 {
 	global.trigger = true;
 	if(!global.mascheraActive && !global.camActive){
@@ -28,6 +28,7 @@ if (!global.trigger && !global.lock)
 	}
 	
 	else if (global.camActive){
+		audio_play_sound(cambio_cam, 1, false);
 		global.camActive = false;
 		video_close();
 		room_goto(rm_ufficio);

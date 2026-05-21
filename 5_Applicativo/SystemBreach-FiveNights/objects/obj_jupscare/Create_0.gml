@@ -7,6 +7,10 @@ with(obj_singularity_controller){
 }
 
 with (obj_ora) {
+	if (time_source_exists(controllo_ora)) {
+        time_source_destroy(controllo_ora);
+    }
+	
     instance_destroy();
 }
 switch(global.ucciso){

@@ -1,5 +1,3 @@
-
-
 lock = function(){
 	
 	global.lock=false;

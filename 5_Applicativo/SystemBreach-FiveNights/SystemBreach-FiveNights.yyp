@@ -90,6 +90,7 @@
     {"id":{"name":"obj_ufficio_ceo_controller","path":"objects/obj_ufficio_ceo_controller/obj_ufficio_ceo_controller.yy",},},
     {"id":{"name":"obj_ufficio_controller","path":"objects/obj_ufficio_controller/obj_ufficio_controller.yy",},},
     {"id":{"name":"obj_unknown_controller","path":"objects/obj_unknown_controller/obj_unknown_controller.yy",},},
+    {"id":{"name":"obj_uscita_gioco","path":"objects/obj_uscita_gioco/obj_uscita_gioco.yy",},},
     {"id":{"name":"obj_Valz_controller","path":"objects/obj_Valz_controller/obj_Valz_controller.yy",},},
     {"id":{"name":"obj_variabili_gioco","path":"objects/obj_variabili_gioco/obj_variabili_gioco.yy",},},
     {"id":{"name":"obj_volume","path":"objects/obj_volume/obj_volume.yy",},},

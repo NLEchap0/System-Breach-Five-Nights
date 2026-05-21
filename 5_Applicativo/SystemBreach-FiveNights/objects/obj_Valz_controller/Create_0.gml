@@ -1,4 +1,3 @@
-valZ = 0; // valore da 1 a 50 che definisce la aggressività dell'animatronico
 possibilita1 = 0;
 possibilita2 = 0;
 count = 0;
@@ -6,7 +5,7 @@ count = 0;
 movimento = function(){ 
       if(global.posizioneValz != 12 && global.posizioneValz != 22){
             ranInt = irandom_range(1, 50);
-            if (ranInt <= valZ) {
+            if (ranInt <= global.aggressivitaValZ) {
                   switch(global.posizioneValz) {
 			            case 6:  possibilita1 = 51; possibilita2 = 0;  break;
 			            case 51: possibilita1 = 52; possibilita2 = 0;  break;

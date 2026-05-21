@@ -1,4 +1,4 @@
-
+/*
 if (current_time - last_update >= 60000) {
     
     // Aggiorna il numero

@@ -1,11 +1,9 @@
-unknownAggressivita = 30;
-
 attivaUnknownRandom = function() {
 	
     if(global.unknownStordito) return;
 	
     var r = irandom_range(1, 50);
-    if(r <= unknownAggressivita){
+    if(r <= global.aggressivitaUnknown){
         global.unknownAttivo = true;
 		global.posizioneUnknown = 31;
 		time_source_stop(controllo_attivazione);
@@ -34,7 +32,7 @@ scendiBarra = function() {
 			controllo_movimento = time_source_create(time_source_game, 4, time_source_units_seconds, movimento, [], -1);
 			time_source_start(controllo_movimento);
             show_debug_message("UNKNOWN:movimento iniziato");
-            avvio_attacco = time_source_create(time_source_game, irandom_range(global.minTime, 20), time_source_units_seconds, attacco, [], -1);
+            avvio_attacco = time_source_create(time_source_game, irandom_range(global.minTime, global.maxTime), time_source_units_seconds, attacco, [], -1);
 			time_source_start(avvio_attacco);
         }
     }

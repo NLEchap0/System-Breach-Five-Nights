@@ -10,7 +10,7 @@
 				
 			}else{
 				
-				layer_set_visible("Assets_camOff",true);
+				layer_set_visible("Assets_camOff", global.mascheraActive == false);
 			}
 		
 		break;

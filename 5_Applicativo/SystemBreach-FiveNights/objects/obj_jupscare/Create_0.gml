@@ -5,6 +5,10 @@ nomeVideoAperto = "";
 with(obj_singularity_controller){
 	time_source_destroy(controllo_posizione);
 }
+
+with (obj_ora) {
+    instance_destroy();
+}
 switch(global.ucciso){
 	case 1:
 		nomeVideoAperto = "jumpscare.mp4";

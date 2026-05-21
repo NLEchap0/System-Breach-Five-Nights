@@ -1,4 +1,4 @@
-if(global.scossaCarica){
+if(global.scossaCarica || !global.unknownMovimento){
 	with(obj_unknown_controller){
 	    shock();
 	}

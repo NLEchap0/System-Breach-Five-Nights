@@ -1,8 +1,5 @@
 audio_stop_all();
 
-with (obj_ora) {
-    instance_destroy();
-}
 with(obj_singularity_controller){
 	instance_destroy();
 }

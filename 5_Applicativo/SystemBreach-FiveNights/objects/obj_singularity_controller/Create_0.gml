@@ -1,4 +1,4 @@
-velocita = 0 //global.VelocitaScaricamento
+
 
 lock = function(){
 	
@@ -14,7 +14,7 @@ lock = function(){
 
 abbasso = function(){
 		if(global.carica >=0 && global.caricamento == false){
-			global.carica -= velocita;
+			global.carica -= global.VelocitaScaricamento;
 			
 		}
 		

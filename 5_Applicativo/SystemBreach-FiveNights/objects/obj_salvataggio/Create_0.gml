@@ -15,6 +15,8 @@ if (file_exists(FILE_IMPOSTAZIONI)) {
     global.volume     = _dati_caricati.volume;
     global.active     = _dati_caricati.active;
     global.notte      = _dati_caricati.notte;
+	
+	audio_master_gain(global.volume);
     
     show_debug_message("Salvataggio criptato caricato con successo!");
 

@@ -54,7 +54,7 @@ if(nomeVideoAperto == "jumpscare.mp4"){
             var _draw_y = (_cam_y + (_cam_h / 2)) - (_final_h / 2);
 
             // 5. DISEGNO con Shader
-            shader_set(shdr_green_screen);
+            shader_set(shdr_green_screen_jumpscare);
             draw_surface_ext(_surf, _draw_x, _draw_y, _scala_finale, _scala_finale, 0, c_white, 1);
             shader_reset();
         }

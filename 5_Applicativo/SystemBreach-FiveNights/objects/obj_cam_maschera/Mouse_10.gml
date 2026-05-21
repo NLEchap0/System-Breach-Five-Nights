@@ -27,10 +27,18 @@ if (!global.trigger && !global.lock)
 		}
 	}
 	
-	else{
+	else if (global.camActive){
 		global.camActive = false;
 		video_close();
 		room_goto(rm_ufficio);
+	}
+	else{
+		global.mascheraActive = false;
+		
+		with(obj_ufficio_controller){
+			layer_maschera_active();
+			aggiorna_layer_fw();
+		}
 	}
 }
 

@@ -3,15 +3,17 @@ function reset(){
 		global.firewall2 = false;
 		global.firewall1 = false;
 
-		with (obj_ufficio_controller) {
-        aggiorna_layer_fw();
+		if(!global.mascheraActive){
+			with (obj_ufficio_controller) {
+				aggiorna_layer_fw();
+			}
 		}
 	}
     
 }
 with(obj_ufficio_controller){
 	
-	if(!global.firewall1 && !global.firewall2 && !global.lock){
+	if(!global.firewall1 && !global.firewall2 && !global.mascheraActive && !global.lock){
 		
 		audio_play_sound(click, 1, false);
 		

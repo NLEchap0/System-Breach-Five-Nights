@@ -1,8 +1,8 @@
 with(obj_impostazioni_controller)
 {
-    if(active == 1)
+    if(global.active == 1)
     {
-        active = 0;
+        global.active = 0;
         window_set_fullscreen(false);
         
         // 1. Torniamo in finestra: rimettiamo la finestra alla dimensione base
@@ -16,7 +16,7 @@ with(obj_impostazioni_controller)
         aggiorna_checkbox();
     }
     else {
-        active = 1;
+        global.active = 1;
         window_set_fullscreen(true);
         
         // 2. Prendiamo la risoluzione esatta del monitor dell'utente
@@ -34,7 +34,6 @@ with(obj_impostazioni_controller)
         
         aggiorna_checkbox();
     }
-    global.active = active;
     aggiornamento_impostazioni("save_data.dat", "NotteSegretaFNAF_2026!");
 }
 audio_play_sound(click, 1, false);

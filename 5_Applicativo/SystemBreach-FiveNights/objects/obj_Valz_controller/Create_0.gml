@@ -1,3 +1,8 @@
+if (instance_number(obj_Valz_controller) > 1) {
+    instance_destroy();
+    exit;
+}
+
 possibilita1 = 0;
 possibilita2 = 0;
 count = 0;

@@ -1,3 +1,8 @@
+if (instance_number(obj_ora) > 1) {
+    instance_destroy();
+    exit;
+}
+
 // ora iniziale
 ora = 12;
 

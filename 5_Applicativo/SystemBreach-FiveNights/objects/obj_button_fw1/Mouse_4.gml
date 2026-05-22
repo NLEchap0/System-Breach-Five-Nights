@@ -1,22 +1,17 @@
 function reset(){
-	if(!global.lock){
+	if(!global.blocco){
 		global.firewall2 = false;
 		global.firewall1 = false;
-
-		if(!global.mascheraActive){
+		if(!global.mascheraAttiva){
 			with (obj_ufficio_controller) {
 				aggiorna_layer_fw();
 			}
 		}
 	}
-    
 }
 with(obj_ufficio_controller){
-	
-	if(!global.firewall1 && !global.firewall2 && !global.mascheraActive && !global.lock){
-		
-		audio_play_sound(click, 1, false);
-		
+	if(!global.firewall1 && !global.firewall2 && !global.mascheraAttiva && !global.blocco){
+		audio_play_sound(suonoClick, 1, false);
 		global.firewall1 = true;
 		global.firewall2 = undefined;
 		aggiorna_layer_fw();

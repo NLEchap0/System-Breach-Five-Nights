@@ -1,4 +1,4 @@
-active = global.active
+active = global.attivo
 //aggiona la checkbox impostando l'asset corretto a visibile
 function aggiorna_checkbox()
 {

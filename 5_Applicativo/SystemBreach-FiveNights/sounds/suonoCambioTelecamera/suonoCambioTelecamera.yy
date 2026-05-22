@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"in_game_background_music",
+  "%Name":"suonoCambioTelecamera",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":60.0,
+  "duration":0.25099772,
   "exportDir":"",
-  "name":"in_game_background_music",
+  "name":"suonoCambioTelecamera",
   "parent":{
-    "name":"Ufficio",
-    "path":"folders/Game/Ufficio.yy",
+    "name":"Telecamere",
+    "path":"folders/Game/Telecamere.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"in_game_background_music.mp3",
+  "soundFile":"suonoCambioTelecamera.mp3",
   "volume":1.0,
 }

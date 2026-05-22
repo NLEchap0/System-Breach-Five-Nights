@@ -1,9 +1,9 @@
-global.currCam = 1;
+global.telecameraCorrente = 1;
 
-if (!global.video_aperto) {
+if (!global.videoAperto) {
 	video_close();
 }
 
-audio_play_sound(cambio_cam, 1, false);
+audio_play_sound(suonoCambioTelecamera, 1, false);
 
 alarm[0]=2;

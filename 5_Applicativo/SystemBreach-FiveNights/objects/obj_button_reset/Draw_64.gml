@@ -38,25 +38,16 @@ if (mx >= x1 && mx <= x2 && my >= y1 && my <= y2) {
     
     if (mouse_check_button_pressed(mb_left)) {		
         // Impostiamo i valori di default:
-	    global.brightness = -0.05;
-	    global.contrast   = 1;
-	    global.saturation = 1.1;
+	    global.luminosita = -0.05;
+	    global.contrasto   = 1;
+	    global.saturazione = 1.1;
 	    global.volume     = 0.6;
-	    global.active     = 1;
-	    global.night      = 1;
+	    global.attivo     = 1;
+	    global.notte      = 1;
     
-	    // Creiamo la struct con questi valori di default per salvarli subito
-	    var _impostazioni_iniziali = {
-	        brightness : global.brightness,
-	        contrast   : global.contrast,
-	        saturation : global.saturation,
-	        volume     : global.volume,
-	        active     : global.active,
-	        notte      : global.night
-	    };
     
 	    // Salviamo il file criptato, così è come nuovo
-	    salvare_gioco_json_criptato(_impostazioni_iniziali, FILE_IMPOSTAZIONI, CHIAVE_SEGRETISSIMA)
+	    salvare_gioco_json_base64()
 		
 		audio_master_gain(global.volume);
 		

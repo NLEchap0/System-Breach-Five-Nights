@@ -1,5 +1,5 @@
 video_open("cambio.mp4");
 video_enable_loop(false);
-global.video_aperto = true;
+global.videoAperto = true;
 
 room_goto(rm_ufficio_ceo);

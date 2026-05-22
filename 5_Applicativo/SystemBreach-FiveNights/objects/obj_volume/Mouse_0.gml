@@ -3,4 +3,4 @@ audio_master_gain(volume);
 global.volume = volume
 
 
-aggiornamento_impostazioni("save_data.dat", "NotteSegretaFNAF_2026!");
+salvare_gioco_json_base64()

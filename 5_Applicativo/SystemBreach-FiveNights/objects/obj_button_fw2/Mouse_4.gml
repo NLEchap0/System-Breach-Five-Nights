@@ -1,9 +1,9 @@
 function reset(){
-    if(!global.lock){
+    if(!global.blocco){
 		global.firewall2 = false;
 		global.firewall1 = false;
 
-		if(!global.mascheraActive){
+		if(!global.mascheraAttiva){
 			with (obj_ufficio_controller) {
 				aggiorna_layer_fw();
 			}
@@ -11,9 +11,9 @@ function reset(){
 	}
 }
 with(obj_ufficio_controller){
-	if(!global.firewall1 && !global.firewall2 && !global.mascheraActive && !global.lock){
+	if(!global.firewall1 && !global.firewall2 && !global.mascheraAttiva && !global.blocco){
 		
-		audio_play_sound(click, 1, false);
+		audio_play_sound(suonoClick, 1, false);
 		
 		global.firewall2 = true;
 		global.firewall1 = undefined;

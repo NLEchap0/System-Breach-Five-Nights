@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script1",
+  "%Name":"Script_salvataggio",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script1",
+  "name":"Script_salvataggio",
   "parent":{
     "name":"Menu",
     "path":"folders/Menu.yy",

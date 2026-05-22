@@ -9,6 +9,9 @@ if (file_exists("save_data.dat")) {
     global.notte      = _dati_caricati.notte;
 	
 	audio_master_gain(global.volume);
+	
+	
+	 ridimensiona();
     
     show_debug_message("Salvataggio criptato caricato con successo!");
 } else {
@@ -18,7 +21,8 @@ if (file_exists("save_data.dat")) {
     global.volume     = 0.6;
     global.attivo     = 1;
     global.notte      = 1;
-    
+	
+    ridimensiona();
    
     
     salvare_gioco_json_base64();

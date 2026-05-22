@@ -19,8 +19,6 @@ function salvare_gioco_json_base64() {
     } catch (_) {}
 }
 
-
-
 function caricare_gioco_json_base64() {
 
     if (!file_exists("save_data.dat")) {

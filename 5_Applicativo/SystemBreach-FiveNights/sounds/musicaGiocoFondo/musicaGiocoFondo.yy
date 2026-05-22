@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"musicaGiocoFondo",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":60.0,
+  "exportDir":"",
+  "name":"musicaGiocoFondo",
+  "parent":{
+    "name":"Ufficio",
+    "path":"folders/Game/Ufficio.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"musicaGiocoFondo.mp3",
+  "volume":1.0,
+}

@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdr_luminosita_contrasto",
+  "name":"shdr_luminosita_contrasto",
+  "parent":{
+    "name":"Impostazioni",
+    "path":"folders/Menu/Impostazioni.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

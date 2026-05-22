@@ -1,0 +1,171 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+title "Diagramma delle Classi - System Breach: Five Nights"
+
+class "StatoGlobale" {
+  + telecameraCorrente : int
+  + mascheraAttiva : bool
+  + firewall1 : bool
+  + firewall2 : bool
+  + notte : int
+  + telecameraAttiva : bool
+  + videoAperto : bool
+  + innesco : bool
+  + vittoria : bool
+  + inAttesaUfficio : bool
+  + ucciso : int
+  + carica : float
+  + caricamento : bool
+  + velocitaScaricamento : float
+  + blocco : bool
+  + tempoBlocco : int
+  + scossaCarica : bool
+  + posizioneValz : int
+  + aggressivitaValZ : float
+  + posizioneUnknown : int
+  + barraUnknown : float
+  + unknownAttivo : bool
+  + unknownStordito : bool
+  + unknownMovimento : bool
+  + velocitaBarra : float
+  + aggressivitaUnknown : float
+  + tempoMinimo : int
+  + tempoMassimo : int
+  + potenziamento : float
+  + riduzioneTempoMassimo : float
+  + luminosita : float
+  + contrasto : float
+  + saturazione : float
+  + volume : float
+  + attivo : bool
+}
+
+class "ControlloreUfficio" {
+  + layer_maschera_active()
+  + aggiorna_layer_fw()
+}
+
+class "VALZ" {
+  - possibilita1 : int
+  - possibilita2 : int
+  - count : int
+  - attacco_timer : TimeSource
+  - controllo_posizione : TimeSource
+  + movimento()
+  + checkAttacco()
+  + attacco()
+}
+
+class "Singularity" {
+  - controllo_posizione : TimeSource
+  + lock()
+  + abbasso()
+}
+
+class "Unknown" {
+  - controllo_attivazione : TimeSource
+  - controllo_barra : TimeSource
+  - controllo_movimento : TimeSource
+  - avvio_attacco : TimeSource
+  - verifica_attacco : TimeSource
+  - ripristinoUnknown : TimeSource
+  + attivaUnknownRandom()
+  + attivaUnknown()
+  + scendiBarra()
+  + movimento()
+  + attacco()
+  + risultatoAttacco()
+  + ripristino()
+  + shock()
+  + resetUnknown()
+}
+
+class "GestoreStanze" {
+  + switch(room) aggiornaLayer()
+}
+
+class "Orologio" {
+  - ora : int
+  - potenziamento : int
+  - controllo_ora : TimeSource
+  + aggiorna_ora()
+}
+
+class "GestoreErrori" {
+  - errore_attivo : bool
+  - messaggio_errore : string
+  + mostraPopup()
+  + riavvia()
+}
+
+class "Salvataggio" {
+  + salvare_gioco_json_criptato()
+  + caricare_gioco_json_decriptato()
+  + aggiornamento_impostazioni()
+}
+
+class "MenuController" {
+  - video : Video
+  + disegnaVideo()
+}
+
+class "Jumpscare" {
+  - nomeVideoAperto : string
+  - isPaused : bool
+  + riavvio()
+}
+
+class "CambiamentoNotte" {
+  + switch(notte) impostaDifficolta()
+}
+
+class "FineNotte" {
+  + resettaStatoGioco()
+}
+
+class "CameraMask" {
+  + gestisciInput()
+}
+
+class "PostProcessing" {
+  + applicaShader()
+}
+
+class "ManualeController" {
+  - page : int
+  - scroll_y : int
+  + aggiorna_pagina()
+}
+
+StatoGlobale <.. ControlloreUfficio : dipende
+StatoGlobale <.. VALZ : dipende
+StatoGlobale <.. Singularity : dipende
+StatoGlobale <.. Unknown : dipende
+StatoGlobale <.. GestoreStanze : dipende
+StatoGlobale <.. Orologio : dipende
+StatoGlobale <.. GestoreErrori : dipende
+StatoGlobale <.. Salvataggio : dipende
+StatoGlobale <.. MenuController : dipende
+StatoGlobale <.. Jumpscare : dipende
+StatoGlobale <.. CambiamentoNotte : dipende
+StatoGlobale <.. FineNotte : dipende
+StatoGlobale <.. CameraMask : dipende
+StatoGlobale <.. PostProcessing : dipende
+StatoGlobale <.. ManualeController : dipende
+
+ControlloreUfficio <-- VALZ : chiama
+ControlloreUfficio <-- Singularity : chiama
+ControlloreUfficio <-- GestoreStanze : chiama
+ControlloreUfficio <-- CameraMask : chiama
+ControlloreUfficio <-- FineNotte : chiama
+
+VALZ <-- Unknown : sospende
+
+Jumpscare .down.> FineNotte : transizione
+CameraMask .down.> Jumpscare : trigger
+CambiamentoNotte .down.> Orologio : attiva
+Orologio .down.> FineNotte : vittoria
+Salvataggio .> StatoGlobale : salva/carica
+
+@enduml

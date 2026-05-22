@@ -8,8 +8,12 @@ with (obj_Gestore_stanze) instance_destroy();
 
 global.posizioneValz = 6;
 global.currCam = 6;
+global.mascheraActive = false;
+global.firewall1 = false;
+global.firewall2 = false;
 global.ucciso = 0;
 global.carica = 100;
+global.caricamento = false;
 global.lock	= false;
 global.barraUnknown = 100;
 global.unknownAttivo = false;
@@ -21,9 +25,6 @@ if(global.win){
 	video_open("winEnding.mp4");
 	if(global.night < 5){
 		global.night += 1;
-	}
-	else{
-		global.night = 1;
 	}
 	global.win = false
 	aggiornamento_impostazioni("save_data.dat", "NotteSegretaFNAF_2026!");

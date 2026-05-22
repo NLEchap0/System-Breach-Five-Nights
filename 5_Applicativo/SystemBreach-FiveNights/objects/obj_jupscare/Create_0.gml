@@ -2,17 +2,12 @@ audio_stop_all();
 isPaused = false;
 nomeVideoAperto = "";
 
-with(obj_singularity_controller){
-	time_source_destroy(controllo_posizione);
-}
+with (obj_ora) instance_destroy();
+with (obj_Valz_controller) instance_destroy();
+with (obj_singularity_controller) instance_destroy();
+with(obj_unknown_controller) instance_destroy();
+with (obj_Gestore_stanze) instance_destroy();
 
-with (obj_ora) {
-	if (time_source_exists(controllo_ora)) {
-        time_source_destroy(controllo_ora);
-    }
-	
-    instance_destroy();
-}
 switch(global.ucciso){
 	case 1:
 		nomeVideoAperto = "jumpscare.mp4";

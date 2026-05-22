@@ -1,4 +1,3 @@
-
 if (!global.trigger && !global.lock || !global.trigger && global.mascheraActive)
 {
 	global.trigger = true;

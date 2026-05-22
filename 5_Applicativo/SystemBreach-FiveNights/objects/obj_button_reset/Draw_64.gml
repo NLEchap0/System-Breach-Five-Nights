@@ -43,7 +43,7 @@ if (mx >= x1 && mx <= x2 && my >= y1 && my <= y2) {
 	    global.saturation = 1.1;
 	    global.volume     = 0.6;
 	    global.active     = 1;
-	    global.notte      = 1;
+	    global.night      = 1;
     
 	    // Creiamo la struct con questi valori di default per salvarli subito
 	    var _impostazioni_iniziali = {
@@ -52,7 +52,7 @@ if (mx >= x1 && mx <= x2 && my >= y1 && my <= y2) {
 	        saturation : global.saturation,
 	        volume     : global.volume,
 	        active     : global.active,
-	        notte      : global.notte
+	        notte      : global.night
 	    };
     
 	    // Salviamo il file criptato, così è come nuovo

@@ -105,6 +105,7 @@ shock = function() {
 		attivaUnknown();
 	}
     else if(global.unknownAttivo && global.barraUnknown > 50){
+		audio_play_sound(scossa_suono, 1, false);
         global.barraUnknown = 100;
         global.unknownAttivo = false;
 		global.unknownStordito = true;

@@ -1,6 +1,6 @@
- switch (room) {
+switch (room) {
 		case rm_ufficio:
-			if(global.lock){
+			if(global.blocco){
 				
 				layer_set_visible("Assets_camOff",false);
 				
@@ -10,7 +10,7 @@
 				
 			}else{
 				
-				layer_set_visible("Assets_camOff", global.mascheraActive == false);
+				layer_set_visible("Assets_camOff", global.mascheraAttiva == false);
 			}
 		
 		break;

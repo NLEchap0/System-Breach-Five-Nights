@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"click",
+  "%Name":"suonoClick",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":0.73142856,
   "exportDir":"",
-  "name":"click",
+  "name":"suonoClick",
   "parent":{
     "name":"Menu",
     "path":"folders/Menu.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"click.mp3",
+  "soundFile":"suonoClick.mp3",
   "volume":1.0,
 }

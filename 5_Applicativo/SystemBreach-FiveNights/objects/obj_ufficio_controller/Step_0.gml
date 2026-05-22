@@ -1,6 +1,6 @@
-if (global.waiting_for_office && room == rm_ufficio) {
-    global.waiting_for_office = false;
-    aggiorna_layer_fw(); // riesegui quando torni
+if (global.inAttesaUfficio && room == rm_ufficio) {
+    global.inAttesaUfficio = false;
+    aggiorna_layer_fw();
 }
 if (global.ucciso != 0){
 	layer_set_visible("Assets_fw1Off", false);

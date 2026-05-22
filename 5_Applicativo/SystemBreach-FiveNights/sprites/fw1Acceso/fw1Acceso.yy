@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"charge",
+  "%Name":"fw1Acceso",
   "bboxMode":0,
   "bbox_bottom":382,
   "bbox_left":0,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"acf1562f-5c7a-4291-b30a-e92f9757e821","name":"acf1562f-5c7a-4291-b30a-e92f9757e821","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"22d96f59-8435-475e-871e-1502a2b343d3","name":"22d96f59-8435-475e-871e-1502a2b343d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":391,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d974383d-b16d-45c5-8202-7902a68bd8f4","blendMode":0,"displayName":"default","isLocked":false,"name":"d974383d-b16d-45c5-8202-7902a68bd8f4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7a453c10-e794-416e-9f76-b9ef5c3e1754","blendMode":0,"displayName":"default","isLocked":false,"name":"7a453c10-e794-416e-9f76-b9ef5c3e1754","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"charge",
+  "name":"fw1Acceso",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Stanza_Singularity",
-    "path":"folders/Game/Telecamere/Stanza_Singularity.yy",
+    "name":"Ufficio",
+    "path":"folders/Game/Ufficio.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"charge",
+    "%Name":"fw1Acceso",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"charge",
+    "name":"fw1Acceso",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"acf1562f-5c7a-4291-b30a-e92f9757e821","path":"sprites/charge/charge.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9edf121d-1ae4-4224-8e15-715715e9c7d7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"22d96f59-8435-475e-871e-1502a2b343d3","path":"sprites/fw1Acceso/fw1Acceso.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1da596f9-b69e-4336-8390-e7cc3bf23b19","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

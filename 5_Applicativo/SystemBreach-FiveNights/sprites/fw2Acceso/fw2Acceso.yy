@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"fw2on",
+  "%Name":"fw2Acceso",
   "bboxMode":0,
   "bbox_bottom":378,
   "bbox_left":0,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"83c0bac6-7df3-4703-9cf3-5931ccb0451b","blendMode":0,"displayName":"default","isLocked":false,"name":"83c0bac6-7df3-4703-9cf3-5931ccb0451b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"fw2on",
+  "name":"fw2Acceso",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"fw2on",
+    "%Name":"fw2Acceso",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"fw2on",
+    "name":"fw2Acceso",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d208d830-1b32-44f7-8394-f48e1ac75ec3","path":"sprites/fw2on/fw2on.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d208d830-1b32-44f7-8394-f48e1ac75ec3","path":"sprites/fw2Acceso/fw2Acceso.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"3289d56f-07a2-44ea-8500-4c3227474ecb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

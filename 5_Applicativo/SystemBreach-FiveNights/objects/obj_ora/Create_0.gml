@@ -3,17 +3,14 @@ if (instance_number(obj_ora) > 1) {
     exit;
 }
 
-// ora iniziale
 ora = 12;
-
-//valore che definisce i potenziamenti ricevuti dagli animatronici durante la notte
 potenziamento = 0;
 
 aggiorna_ora = function(){
 	if(potenziamento < 4){
 		global.aggressivitaValZ += global.potenziamento;
 		global.aggressivitaUnknown += global.potenziamento;
-		global.maxTime -= global.riduzioneMaxTime;
+		global.tempoMassimo -= global.riduzioneTempoMassimo;
 		potenziamento += 1;
 	}
     if (ora == 12) {
@@ -23,7 +20,7 @@ aggiorna_ora = function(){
 	}else {
         video_close();
 		alarm[0] = 2;
-		global.win = true;
+		global.vittoria = true;
     }
 }
 

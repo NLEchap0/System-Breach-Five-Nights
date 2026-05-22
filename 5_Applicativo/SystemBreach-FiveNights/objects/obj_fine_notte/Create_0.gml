@@ -7,27 +7,27 @@ with(obj_unknown_controller) instance_destroy();
 with (obj_Gestore_stanze) instance_destroy();
 
 global.posizioneValz = 6;
-global.currCam = 6;
-global.mascheraActive = false;
+global.telecameraCorrente = 6;
+global.mascheraAttiva = false;
 global.firewall1 = false;
 global.firewall2 = false;
 global.ucciso = 0;
 global.carica = 100;
 global.caricamento = false;
-global.lock	= false;
+global.blocco	= false;
 global.barraUnknown = 100;
 global.unknownAttivo = false;
 global.unknownStordito = false;
 global.unknownMovimento = false;
 
 video_enable_loop(false);
-if(global.win){
+if(global.vittoria){
 	video_open("winEnding.mp4");
-	if(global.night < 5){
-		global.night += 1;
+	if(global.notte < 5){
+		global.notte += 1;
 	}
-	global.win = false
-	aggiornamento_impostazioni("save_data.dat", "NotteSegretaFNAF_2026!");
+	global.vittoria = false
+	salvare_gioco_json_base64()
 }else{
 	
 	video_open("lossEnding.mp4");

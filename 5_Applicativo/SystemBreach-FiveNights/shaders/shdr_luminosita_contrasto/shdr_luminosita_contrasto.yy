@@ -1,7 +1,7 @@
 {
   "$GMShader":"",
-  "%Name":"shdr_brightness_contrast",
-  "name":"shdr_brightness_contrast",
+  "%Name":"shdr_luminosita_contrasto",
+  "name":"shdr_luminosita_contrasto",
   "parent":{
     "name":"Impostazioni",
     "path":"folders/Menu/Impostazioni.yy",

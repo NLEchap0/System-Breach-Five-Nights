@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"cambio_cam",
+  "%Name":"audioSfondoMenu",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.25099772,
+  "duration":53.477005,
   "exportDir":"",
-  "name":"cambio_cam",
+  "name":"audioSfondoMenu",
   "parent":{
-    "name":"Telecamere",
-    "path":"folders/Game/Telecamere.yy",
+    "name":"Menu",
+    "path":"folders/Menu.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"cambio_cam.mp3",
+  "soundFile":"audioSfondoMenu.mp3",
   "volume":1.0,
 }

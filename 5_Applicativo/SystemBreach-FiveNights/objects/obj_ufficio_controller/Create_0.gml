@@ -1,13 +1,11 @@
-//cambio degli assets attivi in base allo stato della maschera
 function layer_maschera_active()
 {
-	layer_set_visible("Assets_camOff", global.mascheraActive == false);
-	layer_set_visible("Assets_mascheraOff", global.mascheraActive == false);
-	layer_set_visible("Assets_mascheraOn", global.mascheraActive == true);
-	layer_set_visible("Assets_maschera", global.mascheraActive == true);
+	layer_set_visible("Assets_camOff", global.mascheraAttiva == false);
+	layer_set_visible("Assets_mascheraOff", global.mascheraAttiva == false);
+	layer_set_visible("Assets_mascheraOn", global.mascheraAttiva == true);
+	layer_set_visible("Assets_maschera", global.mascheraAttiva == true);
 }
 
-//cambio dello stato dei firewall
 function aggiorna_layer_fw()
 {
 	if(room == rm_ufficio){
@@ -17,12 +15,11 @@ function aggiorna_layer_fw()
 		layer_set_visible("Assets_fw2On", global.firewall2 == true);
 	}
 	else{
-		global.waiting_for_office = true;
-
+		global.inAttesaUfficio = true;
 	}
 }
 
 layer_maschera_active();
 aggiorna_layer_fw();
 
-audio_play_sound(in_game_background_music, 1, true);
+audio_play_sound(musicaGiocoFondo, 1, true);

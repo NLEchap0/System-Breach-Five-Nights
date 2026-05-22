@@ -1,1 +1,1 @@
-global.trigger=false
+global.innesco=false

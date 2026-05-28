@@ -1,2 +1,2 @@
 bar_width = 390;
-luminosita = global.brightness+0.5;
+luminosita = global.luminosita+0.5;

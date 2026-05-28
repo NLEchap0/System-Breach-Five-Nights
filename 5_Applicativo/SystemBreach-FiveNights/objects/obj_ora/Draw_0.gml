@@ -1,0 +1,12 @@
+// Imposta il font FNAF (devi averlo importato come fnaf_font)
+draw_set_font(fnaf_font);
+
+// Imposta allineamento
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
+
+// Disegna numero sopra con colore rosso horror
+draw_set_color(c_white);
+draw_text(1200, 45, string(ora)+" AM");
+draw_text(1180, 85, "NIGHT "+string(global.notte));

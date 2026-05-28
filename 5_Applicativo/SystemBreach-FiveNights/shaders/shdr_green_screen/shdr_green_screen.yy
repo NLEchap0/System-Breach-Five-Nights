@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdr_green_screen",
+  "name":"shdr_green_screen",
+  "parent":{
+    "name":"Telecamere",
+    "path":"folders/Game/Telecamere.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

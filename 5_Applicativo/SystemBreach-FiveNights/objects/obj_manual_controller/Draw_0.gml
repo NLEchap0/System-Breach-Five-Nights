@@ -1,4 +1,4 @@
-gpu_set_scissor(box_x, box_y, box_w, box_h);
+/*gpu_set_scissor(box_x, box_y, box_w, box_h);
 
 var base_y = box_y - scroll_y;
 var section_y = base_y;
@@ -27,7 +27,7 @@ draw_text(box_x, section_y, anim_name[page]);
 // Calcoliamo l'altezza del titolo per distanziarlo
 var altezza_titolo = string_height(anim_name[page]);
 
-if(!(page = 2)){
+if(!(page == 2)){
 	// --- DISEGNO DELLA DESCRIZIONE ---
 	testoGrande = "";
 	draw_set_font(global.fnt_normale); // Torna al font
@@ -80,7 +80,7 @@ if(!(page = 2)){
 	// --- DISEGNO DEL TESTO: Diario ---
 	draw_set_font(global.fnt_normale); // Imposta il font
 	draw_text_ext(box_x, section_y + 500, anim_difesa[page], -1, 800);
-	*/
+	
 }
 
 gpu_set_scissor(0, 0, display_get_width(), display_get_height());

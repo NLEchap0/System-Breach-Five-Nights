@@ -1,5 +1,5 @@
 {
-  "$GMWindowsOptions":"v1",
+  "$GMWindowsOptions":"v2",
   "%Name":"Windows",
   "name":"Windows",
   "option_windows_allow_fullscreen_switching":false,
@@ -21,7 +21,7 @@
   "option_windows_license":"${base_options_dir}/windows/installer/license.txt",
   "option_windows_nsis_file":"${base_options_dir}/windows/installer/nsis_script.nsi",
   "option_windows_product_info":"${project_name}",
-  "option_windows_resize_window":true,
+  "option_windows_resize_window":false,
   "option_windows_save_location":0,
   "option_windows_scale":1,
   "option_windows_sleep_margin":10,
@@ -29,6 +29,7 @@
   "option_windows_start_fullscreen":true,
   "option_windows_steam_use_alternative_launcher":false,
   "option_windows_texture_page":"2048x2048",
+  "option_windows_use_raw_mouse":false,
   "option_windows_use_splash":false,
   "option_windows_version":"1.0.0.0",
   "option_windows_vsync":false,

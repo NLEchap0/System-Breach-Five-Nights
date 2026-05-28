@@ -1,6 +1,3 @@
-gui_w = display_get_gui_width();
-gui_h = display_get_gui_height();
-
 page = 0;
 
 //aggiona il manuale impostando l'asset corretto a visibile
@@ -12,11 +9,6 @@ function aggiorna_pagina()
 }
 
 aggiorna_pagina();
-
-box_x = 260;
-box_y = 300;
-box_w = 840;
-box_h = 350;
 
 scroll_y = 0;
 scroll_speed = 20;
@@ -53,10 +45,6 @@ anim_difesa = [
 	"Sintonizzati sulla telecamera della stanza dei server e ricarica il segnale elettromagnetico. Mantieni il disturbo attivo per impedire alla coscienza collettiva di coordinarsi. Il controllo costante dello stato di carica è consigliato.",
 	"Dalla telecamera della cella, usa il tasto della Scossa per resettare i suoi progressi di hacking. Attenzione a non usarla se è già inattivo o provocherai il suo risveglio. Una volta libero se lo senti in ufficio, indossa immediatamente la Maschera per occultare la tua presenza."
 ];
-
-block_height = 500;
-
-content_height = array_length(anim_name) * block_height;
 
 
 global.fnt_titolo = font_add("Arial", 32, true, false, 32, 128);

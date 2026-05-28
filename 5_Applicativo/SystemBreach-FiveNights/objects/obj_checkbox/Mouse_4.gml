@@ -1,17 +1,25 @@
 with(obj_impostazioni_controller)
 {
-	if(active == 1)
-	{
-		active = 0;
+    if(global.attivo == 1)
+    {
 		
-		window_set_fullscreen(false);
-		aggiorna_checkbox();
-	}
-	else{
-		active = 1;
-		window_set_fullscreen(true);
-		aggiorna_checkbox();
-	}
-	global.active = active ;
+        global.attivo = 0;
+		ridimensiona();
+        
+        with(obj_impostazioni_controller){
+			aggiorna_checkbox();
+		}
+    }
+    else {
+        global.attivo = 1;
+        window_set_fullscreen(true);
+        
+        ridimensiona();
+        
+		with(obj_impostazioni_controller){
+			aggiorna_checkbox();
+		}
+    }
+    salvare_gioco_json_base64()
 }
-audio_play_sound(click, 1, false);
+audio_play_sound(suonoClick, 1, false);

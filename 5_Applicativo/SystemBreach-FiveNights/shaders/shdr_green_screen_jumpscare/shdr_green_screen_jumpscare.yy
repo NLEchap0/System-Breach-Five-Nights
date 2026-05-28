@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdr_green_screen_jumpscare",
+  "name":"shdr_green_screen_jumpscare",
+  "parent":{
+    "name":"End",
+    "path":"folders/Game/End.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -4,10 +4,10 @@
 
 ![GameMaker](https://img.shields.io/badge/GameMaker-000000?style=for-the-badge&logo=gamemaker&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Opera GX](https://img.shields.io/badge/Opera_GX-FF1B2D?style=for-the-badge&logo=opera&logoColor=white)
+
 ![Version](https://img.shields.io/badge/v1.0.0.0-5865F2?style=for-the-badge)
 
-*A Five Nights At Freddy's parody — survival horror in 2D*
+*A Five Nights At Freddy's parody — survival horror*
 
 [🇮🇹 Italiano](#-italiano) · [🇬🇧 English](#-english)
 
@@ -26,7 +26,7 @@
 
 ### 🎮 Descrizione
 
-**System Breach: Five Nights** è un gioco survival horror 2D sviluppato con **GameMaker Studio 2**, ispirato alla saga di *Five Nights at Freddy's*. Vestirai i panni di una guardia notturna assunta per sorvegliare un edificio abbandonato di una compagnia di telecomunicazioni. Il tuo turno va dalle 00:00 alle 06:00 per cinque notti. Usa telecamere di sorveglianza, firewall e una misteriosa maschera per sopravvivere agli ostili che abitano l'edificio.
+**System Breach: Five Nights** è un gioco survival horror sviluppato con **GameMaker Studio 2**, ispirato alla saga di *Five Nights at Freddy's*. Vestirai i panni di una guardia notturna assunta per sorvegliare un edificio abbandonato di una compagnia di telecomunicazioni. Il tuo turno va dalle 00:00 alle 06:00 per cinque notti. Usa telecamere di sorveglianza, firewall e una misteriosa maschera per sopravvivere agli ostili che abitano l'edificio.
 
 ### 📖 Story
 
@@ -62,11 +62,6 @@ Un'antica compagnia di telecomunicazioni futuristica ha abbandonato i suoi uffic
 - **Storage:** 500 MB
 - **Audio:** Scheda audio compatibile
 
-**Opera GX (Web):**
-- Browser Opera GX
-- Supporto WebGL
-- Connessione internet
-
 ### 🚀 Come Eseguire
 
 **Windows:**
@@ -83,39 +78,55 @@ System-Breach-Five-Nights/
 ├── 1_QdC/                      # Quaderno dei Capi d'Appalto (requisiti)
 ├── 2_Abstract/                 # Abstract del progetto
 ├── 3_Documentazione/           # Documentazione tecnica
+│   └── UML/                    # Diagramma classi oggetti (PUML)
 ├── 4_Diari/                    # Diari di sviluppo
 ├── 5_Applicativo/              # Gioco (GameMaker Studio 2)
-│   ├── objects/                # 26 oggetti di gioco
-│   ├── rooms/                  # 9 stanze/scene
-│   ├── sprites/                # 25 sprite e asset visivi
-│   ├── sounds/                 # Audio (musica, effetti)
-│   ├── shaders/                # Shader GLSL (luminosità/contrasto)
-│   └── datafiles/              # Video cutscene (menu, notti, jumpscare)
-├── 6_Database/                 # Database
-└── 7_Allegati/                 # Asset di design
-    ├── Mockups/                # Concept art
-    ├── User Interface/         # UI design
-    ├── Personaggi/             # Character art
-    ├── Stanze/                 # Room backgrounds
-    ├── Telecamere/             # Camera feed assets
-    ├── Swimlane&UseCase/       # Diagrammi UML
+│   └── SystemBreach-FiveNights/
+│       ├── objects/            # 47 oggetti (controller, bottoni, nemici, UI, telecamere)
+│       ├── rooms/              # 13 stanze (menu, manuale, ufficio, telecamere, hacking, singularity, unknown, jumpscare, end)
+│       ├── sprites/            # 37 sprite (sfondi, bottoni, personaggi, UI, maschera)
+│       ├── sounds/             # 9 suoni (musiche, click, maschera, scossa, unknown)
+│       ├── shaders/            # 3 shader GLSL (luminosità/contrasto, green screen, green screen jumpscare)
+│       ├── scripts/            # 2 script (ridimensionamento, salvataggio)
+│       ├── fonts/              # 1 font (fnaf_font)
+│       ├── options/            # Opzioni build (Windows, main)
+│       └── datafiles/          # 13 file (video cutscene, font, effetti telecamera)
+├── 6_Database/                 # Database (vuoto)
+└── 7_Allegati/                 # Asset di design e documenti
+    ├── Assets/                 # Asset originali (audio, bottoni, menu, personaggi, stanze, video, telecamere)
+    │   ├── AudioFIles/         # 10 file audio (musiche, effetti, voci unknown)
+    │   ├── GameButtons/        # 11 bottoni (cam, firewall, maschera, carica, scossa)
+    │   ├── GameEnding/         # 2 video (loss, win)
+    │   ├── GameStart/          # 11 file (video notti + overlay testo)
+    │   ├── Jumpscares&Attacchi/ # jumpscare, attacco singularity
+    │   ├── Menu/               # Menu, impostazioni, manuale (PSD + PNG + video)
+    │   ├── Personaggi/         # VAL-Z (6 PNG), The Unknown (2 PNG)
+    │   ├── Post-Credits/       # Immagine post-crediti
+    │   ├── Stanze/             # 9 sfondi stanze (ufficio, attacco, singularity, unknown, VAL-Z)
+    │   └── Telecamere/         # Feed telecamere (PNG, PSD, video cambio/static)
+    ├── Mockups/                # 5 concept art (attacco, puppet, stanza, telecamere, ufficio)
+    ├── Swimlane&UseCase/       # Diagrammi UML (swimlane VAL-Z, The Singularity + use case)
+    ├── old_gantt/              # Vecchi Gantt (.mpp)
+    ├── Gantt-cons.mpp          # Gantt consolidato
+    ├── Gantt-pre.mpp           # Gantt preliminare
     ├── Poster.pdf              # Poster del progetto
-    └── Sprint_Planning.xlsx    # Pianificazione sprint
+    ├── Poster.pptx             # Poster editabile
+    ├── Sprint_Planning.xlsx    # Sprint planning
+    ├── lore.txt                # Lore e backstory
+    └── sources.txt             # Fonti asset
 ```
 
 ### 🛠️ Tecnologie Utilizzate
 
 - **GameMaker Studio 2** — IDE v2024.14.2.213
 - **GameMaker Language (GML)** — Linguaggio di scripting
-- **GLSL ES** — Shader per luminosità/contrasto
-- **Formati:** MP4, PNG, MP3, Draw.io, Microsoft Project
+- **GLSL ES** — 3 shader (luminosità/contrasto, green screen, green screen jumpscare)
 
 ### 📜 Crediti e Fonti
 
 - **Musica di sottofondo:** [Freesound.org](https://freesound.org)
 - **Effetti sonori:** [Freesound.org](https://freesound.org), audiomass.co
 - **Video:** Kapwing, Grok (AI video generation), CapCut (montaggio)
-- **Sprite e UI:** Realizzati per il progetto
 
 ---
 
@@ -130,7 +141,7 @@ System-Breach-Five-Nights/
 
 ### 🎮 Description
 
-**System Breach: Five Nights** is a 2D survival horror game developed with **GameMaker Studio 2**, inspired by the *Five Nights at Freddy's* saga. You play as a night security guard hired to watch over an abandoned telecommunications company building. Your shift runs from 00:00 to 06:00 for five nights. Use surveillance cameras, firewalls, and a mysterious mask to survive the hostile entities that inhabit the building.
+**System Breach: Five Nights** is a survival horror game developed with **GameMaker Studio 2**, inspired by the *Five Nights at Freddy's* saga. You play as a night security guard hired to watch over an abandoned telecommunications company building. Your shift runs from 00:00 to 06:00 for five nights. Use surveillance cameras, firewalls, and a mysterious mask to survive the hostile entities that inhabit the building.
 
 ### 📖 Story
 
@@ -166,11 +177,6 @@ A former futuristic telecommunications company abandoned its offices years ago, 
 - **Storage:** 500 MB
 - **Audio:** Compatible sound card
 
-**Opera GX (Web):**
-- Opera GX browser
-- WebGL support
-- Internet connection
-
 ### 🚀 How to Run
 
 **Windows:**
@@ -187,39 +193,55 @@ System-Breach-Five-Nights/
 ├── 1_QdC/                      # Requirements specification
 ├── 2_Abstract/                 # Project abstract
 ├── 3_Documentazione/           # Technical documentation
+│   └── UML/                    # Object class diagram (PUML)
 ├── 4_Diari/                    # Development diary
 ├── 5_Applicativo/              # Game application (GameMaker Studio 2)
-│   ├── objects/                # 26 game objects
-│   ├── rooms/                  # 9 rooms/scenes
-│   ├── sprites/                # 25 sprites and visual assets
-│   ├── sounds/                 # Audio (music, SFX)
-│   ├── shaders/                # GLSL shaders (brightness/contrast)
-│   └── datafiles/              # Cutscene videos (menu, nights, jumpscare)
-├── 6_Database/                 # Database
-└── 7_Allegati/                 # Design assets
-    ├── Mockups/                # Concept art
-    ├── User Interface/         # UI design
-    ├── Personaggi/             # Character art
-    ├── Stanze/                 # Room backgrounds
-    ├── Telecamere/             # Camera feed assets
-    ├── Swimlane&UseCase/       # UML diagrams
+│   └── SystemBreach-FiveNights/
+│       ├── objects/            # 47 objects (controllers, buttons, enemies, UI, cameras)
+│       ├── rooms/              # 13 rooms (menu, manual, office, cameras, hacking, singularity, unknown, jumpscare, end)
+│       ├── sprites/            # 37 sprites (backgrounds, buttons, characters, UI, mask)
+│       ├── sounds/             # 9 sounds (music, click, mask, shock, unknown)
+│       ├── shaders/            # 3 GLSL shaders (brightness/contrast, green screen, green screen jumpscare)
+│       ├── scripts/            # 2 scripts (resize, save)
+│       ├── fonts/              # 1 font (fnaf_font)
+│       ├── options/            # Build options (Windows, main)
+│       └── datafiles/          # 13 files (cutscene videos, font, camera effects)
+├── 6_Database/                 # Database (empty)
+└── 7_Allegati/                 # Design assets and documents
+    ├── Assets/                 # Original assets (audio, buttons, menu, characters, rooms, video, cameras)
+    │   ├── AudioFIles/         # 10 audio files (music, SFX, unknown voices)
+    │   ├── GameButtons/        # 11 buttons (cam, firewall, mask, charge, shock)
+    │   ├── GameEnding/         # 2 videos (loss, win)
+    │   ├── GameStart/          # 11 files (night videos + text overlays)
+    │   ├── Jumpscares&Attacchi/ # jumpscare, singularity attack
+    │   ├── Menu/               # Menu, settings, manual (PSD + PNG + video)
+    │   ├── Personaggi/         # VAL-Z (6 PNG), The Unknown (2 PNG)
+    │   ├── Post-Credits/       # Post-credits image
+    │   ├── Stanze/             # 9 room backgrounds (office, attack, singularity, unknown, VAL-Z)
+    │   └── Telecamere/         # Camera feeds (PNG, PSD, cambio/static video)
+    ├── Mockups/                # 5 concept arts (attack, puppet, room, cameras, office)
+    ├── Swimlane&UseCase/       # UML diagrams (VAL-Z, The Singularity swimlanes + use case)
+    ├── old_gantt/              # Old Gantt charts (.mpp)
+    ├── Gantt-cons.mpp          # Consolidated Gantt
+    ├── Gantt-pre.mpp           # Preliminary Gantt
     ├── Poster.pdf              # Project poster
-    └── Sprint_Planning.xlsx    # Sprint planning
+    ├── Poster.pptx             # Editable poster
+    ├── Sprint_Planning.xlsx    # Sprint planning
+    ├── lore.txt                # Game lore and backstory
+    └── sources.txt             # Asset sources
 ```
 
 ### 🛠️ Technologies Used
 
 - **GameMaker Studio 2** — IDE v2024.14.2.213
 - **GameMaker Language (GML)** — Scripting language
-- **GLSL ES** — Shader for brightness/contrast
-- **Formats:** MP4, PNG, MP3, Draw.io, Microsoft Project
+- **GLSL ES** — 3 shaders (brightness/contrast, green screen, green screen jumpscare)
 
 ### 📜 Credits & Sources
 
 - **Background music:** [Freesound.org](https://freesound.org)
 - **Sound effects:** [Freesound.org](https://freesound.org), audiomass.co
 - **Videos:** Kapwing, Grok (AI video generation), CapCut (video editing)
-- **Sprites & UI:** Original work for this project
 
 ---
 

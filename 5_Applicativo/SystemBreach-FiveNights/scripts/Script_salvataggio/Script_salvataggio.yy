@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Script_salvataggio",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script_salvataggio",
+  "parent":{
+    "name":"Menu",
+    "path":"folders/Menu.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

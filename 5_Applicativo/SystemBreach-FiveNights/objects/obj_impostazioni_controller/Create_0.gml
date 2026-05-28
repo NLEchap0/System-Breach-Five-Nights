@@ -1,9 +1,9 @@
-active = global.active
 //aggiona la checkbox impostando l'asset corretto a visibile
 function aggiorna_checkbox()
 {
-    layer_set_visible("Assets_backgroundMenuImpostazioniOff", active == 0);
-	layer_set_visible("Assets_backgroundMenuImpostazioniOn", active == 1);
+	show_debug_message(global.attivo);
+    layer_set_visible("Assets_backgroundMenuImpostazioniOff", global.attivo == 0);
+	layer_set_visible("Assets_backgroundMenuImpostazioniOn", global.attivo == 1);
 
 }
 

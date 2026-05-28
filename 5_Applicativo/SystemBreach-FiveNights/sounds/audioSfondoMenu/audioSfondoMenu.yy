@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"audioSfondoMenu",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":53.477005,
+  "exportDir":"",
+  "name":"audioSfondoMenu",
+  "parent":{
+    "name":"Menu",
+    "path":"folders/Menu.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"audioSfondoMenu.mp3",
+  "volume":1.0,
+}

@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Object49",
-  "eventList":[],
+  "%Name":"obj_button_diarioUK",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object49",
+  "name":"obj_button_diarioUK",
   "overriddenProperties":[],
   "parent":{
     "name":"Manuale",

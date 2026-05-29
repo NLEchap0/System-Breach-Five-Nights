@@ -119,13 +119,6 @@ if(page != 2){
 		-1,
 		box_w * 0.6
 	);
-
-	draw_set_font(global.fnt_sub_titolo);
-	draw_text(
-		box_x,
-		section_y + altezza_titolo + (altezza_sub_titolo * 2) + altezza_attacco + altezza_difesa + box_h * 0.06,
-		"Diario"
-	);
 }
 
 gpu_set_scissor(0, 0, display_get_gui_width(), display_get_gui_height());

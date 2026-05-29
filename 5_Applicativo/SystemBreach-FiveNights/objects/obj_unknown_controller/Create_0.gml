@@ -77,7 +77,7 @@ attacco = function() {
 }
 
 risultatoAttacco = function(){
-	if(!global.mascheraActive){
+	if(!global.mascheraAttiva){
         show_debug_message("UNKNOWN: ATTACCO - maschera assente");
         global.ucciso = 2;
         room_goto(rm_ufficio);

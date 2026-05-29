@@ -26,7 +26,7 @@ attivaUnknown = function() {
 scendiBarra = function() {
     if(global.unknownAttivo){
         if(global.barraUnknown > 0){
-            global.barraUnknown -= global.VelocitaBarra;
+            global.barraUnknown -= global.velocitaBarra;
         }
         else{
             global.unknownMovimento = true;
@@ -37,7 +37,7 @@ scendiBarra = function() {
 			controllo_movimento = time_source_create(time_source_game, 4, time_source_units_seconds, movimento, [], -1);
 			time_source_start(controllo_movimento);
             show_debug_message("UNKNOWN:movimento iniziato");
-            avvio_attacco = time_source_create(time_source_game, irandom_range(global.minTime, global.maxTime), time_source_units_seconds, attacco, [], -1);
+            avvio_attacco = time_source_create(time_source_game, irandom_range(global.tempoMinimo, global.tempoMassimo), time_source_units_seconds, attacco, [], -1);
 			time_source_start(avvio_attacco);
         }
     }
@@ -84,7 +84,7 @@ risultatoAttacco = function(){
     }else{
         show_debug_message("UNKNOWN: Attacco fallito - maschera indossata");
         global.posizioneUnknown = -1;
-		time_source_reconfigure(avvio_attacco, irandom_range(global.minTime, global.maxTime), time_source_units_seconds, attacco, [], -1);
+		time_source_reconfigure(avvio_attacco, irandom_range(global.tempoMinimo, global.tempoMassimo), time_source_units_seconds, attacco, [], -1);
 		time_source_start(controllo_movimento);
 		time_source_start(avvio_attacco);
 		with(obj_Valz_controller){

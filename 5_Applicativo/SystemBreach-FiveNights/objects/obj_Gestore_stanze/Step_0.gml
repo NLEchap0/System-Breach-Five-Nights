@@ -2,7 +2,7 @@ switch (room) {
 		case rm_ufficio:
 			if(global.blocco){
 				
-				layer_set_visible("Assets_camOff",false);
+				layer_set_visible("Assets_telecameraSpenta",false);
 				
 				with(obj_ufficio_controller){
 					aggiorna_layer_fw();
@@ -10,7 +10,7 @@ switch (room) {
 				
 			}else{
 				
-				layer_set_visible("Assets_camOff", global.mascheraAttiva == false);
+				layer_set_visible("Assets_telecameraSpenta", global.mascheraAttiva == false);
 			}
 		
 		break;

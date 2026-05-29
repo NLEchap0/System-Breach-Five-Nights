@@ -14,6 +14,13 @@ var gui_h = display_get_gui_height();
 var mx = device_mouse_x_to_gui(0);
 var my = device_mouse_y_to_gui(0);
 
+// Dimensioni adattive
+var btn_w = gui_w * btn_w_ratio;
+var btn_h = gui_h * btn_h_ratio;
+
+// Margine dal basso adattivo
+var margin_from_bottom = gui_h * margin_bottom_ratio;
+
 // 2. Calcola la posizione (Basso Centrale, più alto)
 var x1 = (gui_w - btn_w) / 2;
 var y1 = gui_h - btn_h - margin_from_bottom;
@@ -59,7 +66,20 @@ if (mx >= x1 && mx <= x2 && my >= y1 && my <= y2) {
 
 // 5. DISEGNO DEL BORDO E DEL TESTO
 draw_rectangle(x1, y1, x2, y2, true); // true = solo il bordo outline
-draw_text((x1 + x2) / 2, (y1 + y2) / 2, "Reset dati gioco");
+
+var text_scale = gui_w / 1920;
+
+// Limiti min/max
+text_scale = clamp(text_scale, 0.6, 1.2);
+
+draw_text_transformed(
+    (x1 + x2) / 2,
+    (y1 + y2) / 2,
+    "Reset dati gioco",
+    text_scale,
+    text_scale,
+    0
+);
 
 // 6. RESET FINALE ASSOLUTO
 draw_set_color(c_white);

@@ -91,14 +91,14 @@ if(page != 2){
 	draw_set_font(global.fnt_sub_titolo);
 	draw_text(
 		box_x,
-		section_y + altezza_titolo + 20,
+		section_y + altezza_titolo + box_h * 0.02,
 		"Attacco"
 	);
 
 	draw_set_font(global.fnt_normale);
 	draw_text_ext(
 		box_x,
-		section_y + 120,
+		section_y + altezza_titolo + altezza_sub_titolo + box_h * 0.02,
 		anim_attacco[page],
 		-1,
 		box_w * 0.6
@@ -107,14 +107,14 @@ if(page != 2){
 	draw_set_font(global.fnt_sub_titolo);
 	draw_text(
 		box_x,
-		section_y + 230,
+		section_y + altezza_titolo + altezza_sub_titolo + altezza_attacco + box_h * 0.04,
 		"Difesa"
 	);
 
 	draw_set_font(global.fnt_normale);
 	draw_text_ext(
 		box_x,
-		section_y + 290,
+		section_y + altezza_titolo + (altezza_sub_titolo * 2) + altezza_attacco + box_h * 0.04,
 		anim_difesa[page],
 		-1,
 		box_w * 0.6
@@ -123,7 +123,7 @@ if(page != 2){
 	draw_set_font(global.fnt_sub_titolo);
 	draw_text(
 		box_x,
-		section_y + 440,
+		section_y + altezza_titolo + (altezza_sub_titolo * 2) + altezza_attacco + altezza_difesa + box_h * 0.06,
 		"Diario"
 	);
 }

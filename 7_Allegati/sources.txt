@@ -1,5 +1,6 @@
-Audio: https://Freesound.org/
-Audio effects editor: https://audiomass.co/
-Audio editor: https://www.kapwing.com/
-Video generation: https://grok.com/
-Video editing: https://www.capcut.com/
+Asset audio: https://Freesound.org/
+Editor di effetti audio: https://audiomass.co/
+Editor audio: https://www.kapwing.com/
+Generazione video ed immagini: https://grok.com/
+Generazione/Modifiche immagini: https://https://gemini.google.com/
+Editing video: https://www.capcut.com/

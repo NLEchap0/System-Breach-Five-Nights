@@ -1,6 +1,6 @@
-Asset audio: https://Freesound.org/
-Editor di effetti audio: https://audiomass.co/
-Editor audio: https://www.kapwing.com/
-Generazione video ed immagini: https://grok.com/
-Generazione/Modifiche immagini: https://https://gemini.google.com/
-Editing video: https://www.capcut.com/
+Asset audio:			https://Freesound.org/			29.05.2026
+Editor di effetti audio:	https://audiomass.co/			29.05.2026
+Editor audio:			https://www.kapwing.com/		29.05.2026
+Generazione video ed immagini:	https://grok.com/			29.05.2026
+Generazione/Modifiche immagini:	https://https://gemini.google.com/	29.05.2026
+Editing video:			https://www.capcut.com/			29.05.2026

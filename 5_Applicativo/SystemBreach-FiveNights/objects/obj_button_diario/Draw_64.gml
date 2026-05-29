@@ -1,8 +1,3 @@
-// Se il popup di uscita è aperto, blocchiamo l'interazione e il disegno
-if (instance_exists(obj_uscita_gioco)) {
-    if (obj_uscita_gioco.show_popup) exit;
-}
-
 // 1. BLINDA FONT E COLORE BASE INIZIALE
 draw_set_font(-1);
 draw_set_color(c_white);
@@ -23,7 +18,7 @@ var margin_from_bottom = gui_h * margin_bottom_ratio;
 var margin_from_side = gui_w * margin_side_ratio;
 
 // 2. Calcola la posizione (Basso Centrale, più alto)
-var x1 = ((gui_w - btn_w) / 4) + margin_from_side;
+var x1 = ((gui_w - btn_w) / 4) - margin_from_side;
 var y1 = gui_h - btn_h - margin_from_bottom;
 var x2 = x1 + btn_w;
 var y2 = y1 + btn_h;
@@ -44,23 +39,35 @@ draw_set_alpha(1.0);
 if (mx >= x1 && mx <= x2 && my >= y1 && my <= y2) {
     draw_set_color(c_red); // Bordo e testo diventano rossi in hover
     
-    if (mouse_check_button_pressed(mb_left)) {		
-        // Impostiamo i valori di default:
-	    global.luminosita = -0.05;
-	    global.contrasto   = 1;
-	    global.saturazione = 1.1;
-	    global.volume     = 0.6;
-	    global.attivo     = 1;
-	    global.notte      = 1;
-    
-    
-	    // Salviamo il file criptato, così è come nuovo
-	    salvare_gioco_json_base64()
-		
-		audio_master_gain(global.volume);
-		
-		room_goto(rm_menu);
-    }
+	if (mouse_check_button_pressed(mb_left)) {        
+	    var file_sorgente = "jurnal.pdf";
+
+	    if (file_exists(file_sorgente)) 
+	    {
+	        // 1. COPIA IL PDF NEI DOWNLOAD (Come richiesto)
+	        var percorso_utente = environment_get_variable("USERPROFILE");
+	        var cartella_download = percorso_utente + "\\Downloads\\";
+	        var percorso_finale = cartella_download + "jurnal.pdf";
+	        file_copy(file_sorgente, percorso_finale);
+        
+	        // 2. APRIAMO IL PDF SENZA ESTENSIONI E SENZA CRASH DI PROTOCOLLO
+	        // Leggiamo il PDF originale e lo convertiamo in un buffer
+	        var buff = buffer_load(file_sorgente);
+	        var pdf_base64 = buffer_base64_encode(buff, 0, buffer_get_size(buff));
+	        buffer_delete(buff);
+        
+	        // 3. Creiamo un file HTML temporaneo nella cartella di gioco
+	        var nome_html = "visualizza_diario.html";
+	        var file_html = file_text_open_write(nome_html);
+        
+	        // Scriviamo il codice che inganna il browser, incorporando il PDF come stringa sicura
+	        file_text_write_string(file_html, "<html><body style='margin:0;'><embed width='100%' height='100%' src='data:application/pdf;base64," + pdf_base64 + "' type='application/pdf' /></body></html>");
+	        file_text_close(file_html);
+        
+	        // 4. Lanciamo l'HTML locale. GameMaker lo accetta SEMPRE senza errori di protocollo!
+	        url_open(nome_html);
+	    }
+	}
 } else {
     draw_set_color(c_white); // Altrimenti rimangono bianchi
 }
@@ -76,7 +83,7 @@ text_scale = clamp(text_scale, 0.6, 1.2);
 draw_text_transformed(
     (x1 + x2) / 2,
     (y1 + y2) / 2,
-    "Reset dati gioco",
+    "Scarica diario di bordo",
     text_scale,
     text_scale,
     0
